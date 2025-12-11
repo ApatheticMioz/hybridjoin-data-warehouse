@@ -1,0 +1,102 @@
+[
+  {
+    "Product_ID": "P00002142",
+    "Product_Category": "Grocery",
+    "Year": 2017,
+    "Month": 1,
+    "Month_Name": "January",
+    "Day_Type": "Weekday",
+    "Revenue": 2926.0,
+    "Revenue_Rank": 1
+  },
+  {
+    "Product_ID": "P00184942",
+    "Product_Category": "Grocery",
+    "Year": 2017,
+    "Month": 1,
+    "Month_Name": "January",
+    "Day_Type": "Weekday",
+    "Revenue": 2406.96,
+    "Revenue_Rank": 2
+  },
+  {
+    "Product_ID": "P00372445",
+    "Product_Category": "Shoes",
+    "Year": 2017,
+    "Month": 1,
+    "Month_Name": "January",
+    "Day_Type": "Weekday",
+    "Revenue": 2314.4,
+    "Revenue_Rank": 3
+  },
+  {
+    "Product_ID": "P00110842",
+    "Product_Category": "Grocery",
+    "Year": 2017,
+    "Month": 1,
+    "Month_Name": "January",
+    "Day_Type": "Weekday",
+    "Revenue": 2155.8,
+    "Revenue_Rank": 4
+  },
+  {
+    "Product_ID": "P00371644",
+    "Product_Category": "Shoes",
+    "Year": 2017,
+    "Month": 1,
+    "Month_Name": "January",
+    "Day_Type": "Weekday",
+    "Revenue": 2022.72,
+    "Revenue_Rank": 5
+  },
+  {
+    "Product_ID": "P00127342",
+    "Product_Category": "Grocery",
+    "Year": 2017,
+    "Month": 1,
+    "Month_Name": "January",
+    "Day_Type": "Weekend",
+    "Revenue": 1055.04,
+    "Revenue_Rank": 1
+  },
+  {
+    "Product_ID": "P00037142",
+    "Product_Category": "Grocery",
+    "Year": 2017,
+    "Month": 1,
+    "Month_Name": "January",
+    "Day_Type": "Weekend",
+    "Revenue": 968.55,
+    "Revenue_Rank": 2
+  },
+  {
+    "Product_ID": "P00250242",
+    "Product_Category": "Health & Beauty",
+    "Year": 2017,
+    "Month": 1,
+    "Month_Name": "January",
+    "Day_Type": "Weekend",
+    "Revenue": 941.78,
+    "Revenue_Rank": 3
+  },
+  {
+    "Product_ID": "P00303042",
+    "Product_Category": "Health & Beauty",
+    "Year": 2017,
+    "Month": 1,
+    "Month_Name": "January",
+    "Day_Type": "Weekend",
+    "Revenue": 932.8,
+    "Revenue_Rank": 4
+  },
+  {
+    "Product_ID": "P00005742",
+    "Product_Category": "Toys",
+    "Year": 2017,
+    "Month": 1,
+    "Month_Name": "January",
+    "Day_Type": "Weekend",
+    "Revenue": 911.88,
+    "Revenue_Rank": 5
+  }
+]

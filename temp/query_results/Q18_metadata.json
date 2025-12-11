@@ -1,0 +1,23 @@
+{
+  "query_number": 18,
+  "title": "Revenue and Volume-Based Sales Analysis for Each Product for \n--      H1 and H2",
+  "description": "For each product, calculate the total revenue and quantity sold in the first and second halves of the year Demonstrates: Pivoting, Temporal analysis",
+  "execution_time_seconds": 0.3311278820037842,
+  "execution_time_formatted": "331.13ms",
+  "row_count": 3321,
+  "column_count": 11,
+  "columns": [
+    "Product_ID",
+    "Product_Category",
+    "Year",
+    "H1_Revenue",
+    "H2_Revenue",
+    "Yearly_Revenue",
+    "H1_Quantity",
+    "H2_Quantity",
+    "Yearly_Quantity",
+    "H1_Revenue_Percentage",
+    "H2_Revenue_Percentage"
+  ],
+  "timestamp": "2025-11-18T21:52:22.000338"
+}

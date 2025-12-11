@@ -1,0 +1,18 @@
+{
+  "query_number": 17,
+  "title": "Yearly Revenue Trends by Store, Supplier, and Product with \n--      ROLLUP",
+  "description": "Use the ROLLUP operation to aggregate yearly revenue data by store, supplier, and product Demonstrates: ROLLUP, Hierarchical aggregation",
+  "execution_time_seconds": 0.851189374923706,
+  "execution_time_formatted": "851.19ms",
+  "row_count": 6630,
+  "column_count": 6,
+  "columns": [
+    "StoreName",
+    "SupplierName",
+    "Product_ID",
+    "Year",
+    "Total_Revenue",
+    "Total_Quantity"
+  ],
+  "timestamp": "2025-11-18T21:52:21.660156"
+}

@@ -1,0 +1,17 @@
+{
+  "query_number": 5,
+  "title": "Top Occupations by Product Category Sales",
+  "description": "Highlights the top 5 occupations driving sales within each product category Demonstrates: Ranking within groups, Cross-dimensional analysis",
+  "execution_time_seconds": 0.8100473880767822,
+  "execution_time_formatted": "810.05ms",
+  "row_count": 100,
+  "column_count": 5,
+  "columns": [
+    "Product_Category",
+    "Occupation",
+    "Occupation_Bucket",
+    "Total_Sales",
+    "Sales_Rank"
+  ],
+  "timestamp": "2025-11-18T21:52:09.493943"
+}

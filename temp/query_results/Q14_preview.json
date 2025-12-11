@@ -1,0 +1,102 @@
+[
+  {
+    "Product_ID": "P00000142",
+    "Product_Category": "Home & Kitchen",
+    "Season": "Spring",
+    "Year": 2015,
+    "Total_Sales": 2835.6,
+    "Total_Quantity": 102.0,
+    "Total_Transactions": 51,
+    "Avg_Transaction_Value": 55.6
+  },
+  {
+    "Product_ID": "P00000142",
+    "Product_Category": "Home & Kitchen",
+    "Season": "Summer",
+    "Year": 2015,
+    "Total_Sales": 3085.8,
+    "Total_Quantity": 111.0,
+    "Total_Transactions": 57,
+    "Avg_Transaction_Value": 54.136842
+  },
+  {
+    "Product_ID": "P00000142",
+    "Product_Category": "Home & Kitchen",
+    "Season": "Fall",
+    "Year": 2015,
+    "Total_Sales": 2557.6,
+    "Total_Quantity": 92.0,
+    "Total_Transactions": 44,
+    "Avg_Transaction_Value": 58.127273
+  },
+  {
+    "Product_ID": "P00000142",
+    "Product_Category": "Home & Kitchen",
+    "Season": "Winter",
+    "Year": 2015,
+    "Total_Sales": 2835.6,
+    "Total_Quantity": 102.0,
+    "Total_Transactions": 48,
+    "Avg_Transaction_Value": 59.075
+  },
+  {
+    "Product_ID": "P00000142",
+    "Product_Category": "Home & Kitchen",
+    "Season": "Spring",
+    "Year": 2016,
+    "Total_Sales": 2085.0,
+    "Total_Quantity": 75.0,
+    "Total_Transactions": 36,
+    "Avg_Transaction_Value": 57.916667
+  },
+  {
+    "Product_ID": "P00000142",
+    "Product_Category": "Home & Kitchen",
+    "Season": "Summer",
+    "Year": 2016,
+    "Total_Sales": 2974.6,
+    "Total_Quantity": 107.0,
+    "Total_Transactions": 54,
+    "Avg_Transaction_Value": 55.085185
+  },
+  {
+    "Product_ID": "P00000142",
+    "Product_Category": "Home & Kitchen",
+    "Season": "Fall",
+    "Year": 2016,
+    "Total_Sales": 2974.6,
+    "Total_Quantity": 107.0,
+    "Total_Transactions": 52,
+    "Avg_Transaction_Value": 57.203846
+  },
+  {
+    "Product_ID": "P00000142",
+    "Product_Category": "Home & Kitchen",
+    "Season": "Winter",
+    "Year": 2016,
+    "Total_Sales": 1918.2,
+    "Total_Quantity": 69.0,
+    "Total_Transactions": 34,
+    "Avg_Transaction_Value": 56.417647
+  },
+  {
+    "Product_ID": "P00000142",
+    "Product_Category": "Home & Kitchen",
+    "Season": "Spring",
+    "Year": 2017,
+    "Total_Sales": 2807.8,
+    "Total_Quantity": 101.0,
+    "Total_Transactions": 49,
+    "Avg_Transaction_Value": 57.302041
+  },
+  {
+    "Product_ID": "P00000142",
+    "Product_Category": "Home & Kitchen",
+    "Season": "Summer",
+    "Year": 2017,
+    "Total_Sales": 2724.4,
+    "Total_Quantity": 98.0,
+    "Total_Transactions": 50,
+    "Avg_Transaction_Value": 54.488
+  }
+]

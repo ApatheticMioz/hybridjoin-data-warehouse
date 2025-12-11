@@ -1,0 +1,102 @@
+[
+  {
+    "Gender": "F",
+    "Age": "0-17",
+    "Year": 2017,
+    "Quarter": 1,
+    "Quarter_Label": "Q1-2017",
+    "Total_Transactions": 203,
+    "Total_Purchase_Amount": 16443.72,
+    "Avg_Purchase_Amount": 81.003547
+  },
+  {
+    "Gender": "F",
+    "Age": "0-17",
+    "Year": 2017,
+    "Quarter": 2,
+    "Quarter_Label": "Q2-2017",
+    "Total_Transactions": 218,
+    "Total_Purchase_Amount": 19270.12,
+    "Avg_Purchase_Amount": 88.395046
+  },
+  {
+    "Gender": "F",
+    "Age": "0-17",
+    "Year": 2017,
+    "Quarter": 3,
+    "Quarter_Label": "Q3-2017",
+    "Total_Transactions": 221,
+    "Total_Purchase_Amount": 16697.09,
+    "Avg_Purchase_Amount": 75.552443
+  },
+  {
+    "Gender": "F",
+    "Age": "0-17",
+    "Year": 2017,
+    "Quarter": 4,
+    "Quarter_Label": "Q4-2017",
+    "Total_Transactions": 218,
+    "Total_Purchase_Amount": 18218.48,
+    "Avg_Purchase_Amount": 83.571009
+  },
+  {
+    "Gender": "F",
+    "Age": "18-25",
+    "Year": 2017,
+    "Quarter": 1,
+    "Quarter_Label": "Q1-2017",
+    "Total_Transactions": 1049,
+    "Total_Purchase_Amount": 82842.67,
+    "Avg_Purchase_Amount": 78.972993
+  },
+  {
+    "Gender": "F",
+    "Age": "18-25",
+    "Year": 2017,
+    "Quarter": 2,
+    "Quarter_Label": "Q2-2017",
+    "Total_Transactions": 1021,
+    "Total_Purchase_Amount": 82200.78,
+    "Avg_Purchase_Amount": 80.510069
+  },
+  {
+    "Gender": "F",
+    "Age": "18-25",
+    "Year": 2017,
+    "Quarter": 3,
+    "Quarter_Label": "Q3-2017",
+    "Total_Transactions": 1000,
+    "Total_Purchase_Amount": 79592.74,
+    "Avg_Purchase_Amount": 79.59274
+  },
+  {
+    "Gender": "F",
+    "Age": "18-25",
+    "Year": 2017,
+    "Quarter": 4,
+    "Quarter_Label": "Q4-2017",
+    "Total_Transactions": 1036,
+    "Total_Purchase_Amount": 83914.82,
+    "Avg_Purchase_Amount": 80.998861
+  },
+  {
+    "Gender": "F",
+    "Age": "26-35",
+    "Year": 2017,
+    "Quarter": 1,
+    "Quarter_Label": "Q1-2017",
+    "Total_Transactions": 2124,
+    "Total_Purchase_Amount": 168087.58,
+    "Avg_Purchase_Amount": 79.137279
+  },
+  {
+    "Gender": "F",
+    "Age": "26-35",
+    "Year": 2017,
+    "Quarter": 2,
+    "Quarter_Label": "Q2-2017",
+    "Total_Transactions": 2069,
+    "Total_Purchase_Amount": 168104.94,
+    "Avg_Purchase_Amount": 81.249367
+  }
+]

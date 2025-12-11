@@ -1,0 +1,19 @@
+{
+  "query_number": 3,
+  "title": "Product Category Sales by Occupation",
+  "description": "Examines total sales for each product category based on customer occupation Demonstrates: Cross-dimensional analysis (Product \u00d7 Customer)",
+  "execution_time_seconds": 1.4119799137115479,
+  "execution_time_formatted": "1.412s",
+  "row_count": 419,
+  "column_count": 7,
+  "columns": [
+    "Product_Category",
+    "Occupation",
+    "Occupation_Bucket",
+    "Total_Transactions",
+    "Total_Sales",
+    "Total_Quantity",
+    "Avg_Transaction_Value"
+  ],
+  "timestamp": "2025-11-18T21:52:08.438288"
+}

@@ -1,0 +1,420 @@
+Product_Category,Occupation,Occupation_Bucket,Total_Transactions,Total_Sales,Total_Quantity,Avg_Transaction_Value
+Appliances,0,Entry,196,14478.23,375,73.868520
+Appliances,1,Entry,169,14091.25,334,83.380178
+Appliances,4,Entry,180,12742.12,351,70.789556
+Appliances,7,Skilled,160,12668.51,308,79.178188
+Appliances,20,Executive,121,9757.02,245,80.636529
+Appliances,16,Executive,79,6949.50,160,87.968354
+Appliances,17,Executive,76,6469.24,160,85.121579
+Appliances,6,Skilled,72,5926.53,137,82.312917
+Appliances,2,Entry,81,5803.15,165,71.643827
+Appliances,3,Entry,68,5608.06,148,82.471471
+Appliances,12,Professional,72,5015.48,146,69.659444
+Appliances,14,Professional,55,4003.30,116,72.787273
+Appliances,13,Professional,27,2390.82,52,88.548889
+Appliances,15,Executive,27,2246.31,62,83.196667
+Appliances,10,Professional,29,2233.55,63,77.018966
+Appliances,19,Executive,29,2201.69,59,75.920345
+Appliances,9,Skilled,23,2076.61,47,90.287391
+Appliances,11,Professional,30,2058.40,59,68.613333
+Appliances,5,Skilled,23,1519.19,41,66.051739
+Appliances,18,Executive,6,560.18,15,93.363333
+"Arts, Crafts & Sewing",4,Entry,1192,93608.70,2384,78.530789
+"Arts, Crafts & Sewing",0,Entry,1225,90769.63,2428,74.097657
+"Arts, Crafts & Sewing",7,Skilled,1168,83928.15,2277,71.856293
+"Arts, Crafts & Sewing",1,Entry,784,61181.17,1597,78.037207
+"Arts, Crafts & Sewing",17,Executive,715,54501.17,1395,76.225413
+"Arts, Crafts & Sewing",20,Executive,584,46715.57,1179,79.992414
+"Arts, Crafts & Sewing",12,Professional,544,44368.92,1096,81.560515
+"Arts, Crafts & Sewing",16,Executive,531,41520.86,1053,78.193710
+"Arts, Crafts & Sewing",14,Professional,515,37982.86,1031,73.753126
+"Arts, Crafts & Sewing",2,Entry,448,37230.07,932,83.102835
+"Arts, Crafts & Sewing",6,Skilled,416,30271.65,815,72.768389
+"Arts, Crafts & Sewing",3,Entry,342,26560.67,688,77.662778
+"Arts, Crafts & Sewing",5,Skilled,213,16391.67,433,76.956197
+"Arts, Crafts & Sewing",15,Executive,207,15633.95,419,75.526329
+"Arts, Crafts & Sewing",10,Professional,200,15190.43,395,75.952150
+"Arts, Crafts & Sewing",11,Professional,181,13731.39,385,75.864033
+"Arts, Crafts & Sewing",19,Executive,145,12612.87,303,86.985310
+"Arts, Crafts & Sewing",18,Executive,153,11458.93,295,74.894967
+"Arts, Crafts & Sewing",13,Professional,136,9988.55,259,73.445221
+"Arts, Crafts & Sewing",9,Skilled,113,7297.49,211,64.579558
+"Arts, Crafts & Sewing",8,Skilled,16,1049.85,34,65.615625
+Automotive,0,Entry,636,61445.19,1244,96.611934
+Automotive,7,Skilled,525,50967.58,1074,97.081105
+Automotive,1,Entry,515,48905.52,1051,94.962175
+Automotive,4,Entry,474,48101.31,966,101.479557
+Automotive,20,Executive,405,39443.88,844,97.392296
+Automotive,17,Executive,352,35571.28,722,101.054773
+Automotive,12,Professional,342,33481.88,656,97.900234
+Automotive,2,Entry,283,26826.07,556,94.791767
+Automotive,16,Executive,224,22912.11,467,102.286205
+Automotive,14,Professional,235,22612.73,460,96.224383
+Automotive,6,Skilled,189,19284.12,382,102.032381
+Automotive,3,Entry,195,15929.71,381,81.690821
+Automotive,11,Professional,161,14858.00,325,92.285714
+Automotive,15,Executive,125,12115.05,248,96.920400
+Automotive,13,Professional,129,10890.54,247,84.422791
+Automotive,10,Professional,73,7806.66,153,106.940548
+Automotive,5,Skilled,85,7502.20,158,88.261176
+Automotive,19,Executive,71,6782.58,141,95.529296
+Automotive,18,Executive,60,5440.16,117,90.669333
+Automotive,9,Skilled,33,2939.33,66,89.070606
+Automotive,8,Skilled,13,1399.16,24,107.627692
+Baby,0,Entry,559,46686.48,1135,83.517853
+Baby,4,Entry,449,36538.70,879,81.377951
+Baby,20,Executive,379,33414.65,770,88.165303
+Baby,1,Entry,374,31703.34,732,84.768289
+Baby,7,Skilled,327,25738.68,634,78.711560
+Baby,2,Entry,229,19778.22,451,86.367773
+Baby,16,Executive,196,15633.69,381,79.763724
+Baby,17,Executive,172,14809.84,345,86.103721
+Baby,12,Professional,184,14417.28,360,78.354783
+Baby,14,Professional,156,13520.70,321,86.671154
+Baby,6,Skilled,146,12806.49,288,87.715685
+Baby,3,Entry,137,11290.05,273,82.409124
+Baby,15,Executive,85,7321.77,165,86.138471
+Baby,11,Professional,84,7227.10,158,86.036905
+Baby,19,Executive,62,4938.03,115,79.645645
+Baby,10,Professional,42,3766.83,95,89.686429
+Baby,13,Professional,49,3738.83,93,76.302653
+Baby,18,Executive,34,3120.38,68,91.775882
+Baby,5,Skilled,37,2821.58,71,76.258919
+Baby,9,Skilled,15,1716.91,32,114.460667
+Baby,8,Skilled,5,207.14,7,41.428000
+"Books, Movies & Music",7,Skilled,461,43668.83,917,94.726312
+"Books, Movies & Music",0,Entry,426,41280.26,875,96.902019
+"Books, Movies & Music",4,Entry,268,27739.50,555,103.505597
+"Books, Movies & Music",1,Entry,238,23014.91,470,96.701303
+"Books, Movies & Music",17,Executive,231,21614.26,451,93.568225
+"Books, Movies & Music",20,Executive,180,16911.06,362,93.950333
+"Books, Movies & Music",16,Executive,176,16786.39,353,95.377216
+"Books, Movies & Music",12,Professional,133,14581.58,279,109.635940
+"Books, Movies & Music",2,Entry,151,14547.66,307,96.342119
+"Books, Movies & Music",14,Professional,152,13924.78,296,91.610395
+"Books, Movies & Music",11,Professional,106,10442.09,226,98.510283
+"Books, Movies & Music",5,Skilled,95,9591.81,197,100.966421
+"Books, Movies & Music",6,Skilled,91,9271.92,185,101.889231
+"Books, Movies & Music",3,Entry,101,9118.02,195,90.277426
+"Books, Movies & Music",15,Executive,89,8478.18,166,95.260449
+"Books, Movies & Music",13,Professional,69,5790.20,142,83.915942
+"Books, Movies & Music",18,Executive,53,5389.70,109,101.692453
+"Books, Movies & Music",19,Executive,49,4785.97,100,97.672857
+"Books, Movies & Music",9,Skilled,23,2443.91,46,106.256957
+"Books, Movies & Music",10,Professional,26,2019.64,49,77.678462
+"Books, Movies & Music",8,Skilled,7,482.02,14,68.860000
+Clothing,4,Entry,1703,128830.66,3421,75.649243
+Clothing,0,Entry,1481,108026.78,2915,72.941783
+Clothing,7,Skilled,1099,79451.55,2199,72.294404
+Clothing,1,Entry,973,70509.95,1917,72.466547
+Clothing,17,Executive,812,62103.73,1625,76.482426
+Clothing,20,Executive,706,51483.12,1410,72.922266
+Clothing,10,Professional,668,50189.13,1298,75.133428
+Clothing,12,Professional,573,39447.30,1161,68.843455
+Clothing,2,Entry,512,37114.57,996,72.489395
+Clothing,14,Professional,473,35550.62,941,75.159873
+Clothing,6,Skilled,445,34849.23,924,78.312876
+Clothing,16,Executive,445,31066.77,854,69.812966
+Clothing,3,Entry,398,28798.87,781,72.358970
+Clothing,5,Skilled,252,19208.15,522,76.222817
+Clothing,9,Skilled,250,18914.88,496,75.659520
+Clothing,19,Executive,228,18306.45,462,80.291447
+Clothing,11,Professional,219,15520.87,434,70.871553
+Clothing,15,Executive,230,15085.46,446,65.588957
+Clothing,18,Executive,125,9692.27,246,77.538160
+Clothing,13,Professional,122,8734.04,251,71.590492
+Clothing,8,Skilled,39,2983.57,71,76.501795
+Electronics,4,Entry,3039,250112.02,5983,82.300763
+Electronics,0,Entry,2971,247976.17,6030,83.465557
+Electronics,7,Skilled,2511,207694.03,5018,82.713672
+Electronics,1,Entry,1922,160041.08,3842,83.267992
+Electronics,17,Executive,1971,159648.34,3917,80.998650
+Electronics,20,Executive,1462,119863.54,2939,81.986005
+Electronics,12,Professional,1422,118663.67,2850,83.448432
+Electronics,2,Entry,1110,93652.97,2180,84.372045
+Electronics,16,Executive,1130,91414.20,2284,80.897522
+Electronics,14,Professional,1104,87900.66,2164,79.620163
+Electronics,6,Skilled,821,65646.03,1587,79.958624
+Electronics,10,Professional,720,62394.57,1484,86.659125
+Electronics,3,Entry,666,56319.97,1341,84.564520
+Electronics,5,Skilled,589,49246.93,1180,83.611087
+Electronics,15,Executive,579,47821.44,1167,82.593161
+Electronics,11,Professional,476,41123.01,997,86.392878
+Electronics,13,Professional,362,31031.40,740,85.722099
+Electronics,19,Executive,325,26233.35,649,80.718000
+Electronics,18,Executive,305,24967.35,595,81.860164
+Electronics,9,Skilled,280,22331.25,557,79.754464
+Electronics,8,Skilled,99,8087.57,198,81.692626
+Furniture,0,Entry,720,60644.32,1441,84.228222
+Furniture,7,Skilled,608,50706.37,1205,83.398635
+Furniture,1,Entry,554,49073.88,1120,88.581011
+Furniture,4,Entry,591,48673.76,1131,82.358308
+Furniture,17,Executive,452,37735.87,896,83.486438
+Furniture,20,Executive,341,30614.25,678,89.777859
+Furniture,12,Professional,309,26339.34,621,85.240583
+Furniture,14,Professional,289,23972.48,574,82.949758
+Furniture,16,Executive,259,22077.73,523,85.242201
+Furniture,2,Entry,247,20783.39,484,84.143279
+Furniture,3,Entry,220,19013.47,440,86.424864
+Furniture,6,Skilled,205,15137.37,399,73.840829
+Furniture,15,Executive,125,10473.34,238,83.786720
+Furniture,13,Professional,110,9544.29,215,86.766273
+Furniture,5,Skilled,96,8740.03,204,91.041979
+Furniture,11,Professional,117,8654.03,220,73.966068
+Furniture,10,Professional,91,7702.34,179,84.641099
+Furniture,19,Executive,75,6732.15,156,89.762000
+Furniture,18,Executive,71,5490.24,135,77.327324
+Furniture,9,Skilled,61,4778.48,122,78.335738
+Furniture,8,Skilled,8,514.42,14,64.302500
+Grocery,4,Entry,19238,1547433.61,38490,80.436304
+Grocery,0,Entry,17643,1444619.22,35386,81.880588
+Grocery,7,Skilled,16037,1292442.45,32102,80.591286
+Grocery,17,Executive,12767,1036160.32,25454,81.159264
+Grocery,1,Entry,10315,835193.87,20563,80.968868
+Grocery,12,Professional,9257,745056.86,18564,80.485779
+Grocery,14,Professional,7506,611975.29,14927,81.531480
+Grocery,20,Executive,6873,561574.40,13749,81.707318
+Grocery,16,Executive,6501,536167.37,12977,82.474599
+Grocery,2,Entry,5742,465992.93,11601,81.155160
+Grocery,6,Skilled,4601,369371.97,9095,80.280802
+Grocery,3,Entry,3944,327217.42,7893,82.965877
+Grocery,5,Skilled,3646,299872.78,7291,82.247060
+Grocery,15,Executive,3376,268391.30,6708,79.499793
+Grocery,10,Professional,3267,256128.41,6521,78.398656
+Grocery,11,Professional,2645,212581.41,5259,80.371043
+Grocery,19,Executive,2077,170874.23,4194,82.269730
+Grocery,18,Executive,1753,144270.68,3518,82.299304
+Grocery,13,Professional,1545,119408.47,3043,77.287036
+Grocery,9,Skilled,1133,93203.63,2261,82.262692
+Grocery,8,Skilled,512,41044.52,1003,80.165078
+Health & Beauty,4,Entry,20459,1668251.27,40833,81.541193
+Health & Beauty,0,Entry,18985,1526082.99,38046,80.383618
+Health & Beauty,7,Skilled,15619,1242958.13,31331,79.579879
+Health & Beauty,1,Entry,13169,1062135.94,26180,80.654259
+Health & Beauty,20,Executive,9819,804593.61,19685,81.942521
+Health & Beauty,17,Executive,9736,780776.90,19501,80.194834
+Health & Beauty,12,Professional,8033,631660.91,15914,78.633252
+Health & Beauty,2,Entry,7613,618815.37,15190,81.284037
+Health & Beauty,14,Professional,7636,612696.30,15278,80.237860
+Health & Beauty,16,Executive,6795,545028.61,13615,80.210244
+Health & Beauty,6,Skilled,5691,455267.43,11393,79.997791
+Health & Beauty,3,Entry,5286,425348.73,10532,80.467032
+Health & Beauty,10,Professional,3628,298248.80,7201,82.207497
+Health & Beauty,11,Professional,3391,271824.48,6800,80.160566
+Health & Beauty,5,Skilled,3276,261903.08,6578,79.945995
+Health & Beauty,15,Executive,3183,256842.77,6330,80.692042
+Health & Beauty,19,Executive,2370,190718.95,4747,80.472131
+Health & Beauty,9,Skilled,2154,172879.63,4308,80.259810
+Health & Beauty,13,Professional,1972,159920.86,3952,81.095771
+Health & Beauty,18,Executive,1747,139332.78,3504,79.755455
+Health & Beauty,8,Skilled,371,28176.99,720,75.948760
+Home & Kitchen,4,Entry,3306,265424.05,6579,80.285557
+Home & Kitchen,0,Entry,2635,215359.77,5277,81.730463
+Home & Kitchen,1,Entry,1559,131397.48,3193,84.283182
+Home & Kitchen,7,Skilled,1604,126441.84,3168,78.829077
+Home & Kitchen,17,Executive,1509,121554.04,3020,80.552710
+Home & Kitchen,20,Executive,1246,99920.09,2462,80.192689
+Home & Kitchen,12,Professional,1187,96781.37,2395,81.534431
+Home & Kitchen,10,Professional,1057,85283.50,2111,80.684484
+Home & Kitchen,2,Entry,958,77260.02,1888,80.647203
+Home & Kitchen,16,Executive,764,62583.92,1538,81.916126
+Home & Kitchen,14,Professional,788,61211.25,1545,77.679251
+Home & Kitchen,6,Skilled,750,59169.35,1474,78.892467
+Home & Kitchen,3,Entry,614,48925.01,1216,79.682427
+Home & Kitchen,5,Skilled,447,35413.80,900,79.225503
+Home & Kitchen,15,Executive,439,34995.32,871,79.715991
+Home & Kitchen,11,Professional,344,28357.98,680,82.435988
+Home & Kitchen,9,Skilled,360,28311.61,723,78.643361
+Home & Kitchen,19,Executive,268,20796.39,528,77.598470
+Home & Kitchen,18,Executive,160,13304.04,342,83.150250
+Home & Kitchen,13,Professional,151,11541.84,298,76.436026
+Home & Kitchen,8,Skilled,67,5714.93,143,85.297463
+Household Essentials,4,Entry,2657,222756.44,5284,83.837576
+Household Essentials,0,Entry,2568,221357.12,5124,86.198255
+Household Essentials,7,Skilled,2303,199020.94,4623,86.418124
+Household Essentials,1,Entry,1767,153109.87,3574,86.649615
+Household Essentials,20,Executive,1412,123325.16,2887,87.340765
+Household Essentials,17,Executive,1388,115618.11,2725,83.298350
+Household Essentials,14,Professional,1181,98827.37,2375,83.681092
+Household Essentials,12,Professional,1097,92874.98,2204,84.662698
+Household Essentials,2,Entry,1039,90259.09,2120,86.871116
+Household Essentials,16,Executive,944,79234.30,1880,83.934640
+Household Essentials,6,Skilled,735,61989.35,1466,84.339252
+Household Essentials,3,Entry,651,54148.58,1283,83.177542
+Household Essentials,11,Professional,511,43452.37,1020,85.033992
+Household Essentials,15,Executive,432,37300.91,866,86.344699
+Household Essentials,5,Skilled,379,33559.44,774,88.547335
+Household Essentials,19,Executive,338,29028.04,677,85.881775
+Household Essentials,10,Professional,288,24039.98,581,83.472153
+Household Essentials,18,Executive,275,23258.48,547,84.576291
+Household Essentials,13,Professional,263,20486.46,519,77.895285
+Household Essentials,9,Skilled,193,17345.57,404,89.873420
+Household Essentials,8,Skilled,45,3340.49,84,74.233111
+Jewelry & Accessories,7,Skilled,192,11111.79,367,57.873906
+Jewelry & Accessories,4,Entry,178,10395.57,361,58.402079
+Jewelry & Accessories,0,Entry,188,9995.94,361,53.169894
+Jewelry & Accessories,1,Entry,139,7945.89,279,57.164676
+Jewelry & Accessories,17,Executive,145,7369.80,290,50.826207
+Jewelry & Accessories,12,Professional,119,6093.06,237,51.202185
+Jewelry & Accessories,14,Professional,91,5802.42,202,63.762857
+Jewelry & Accessories,16,Executive,64,4032.63,126,63.009844
+Jewelry & Accessories,10,Professional,55,3741.99,112,68.036182
+Jewelry & Accessories,20,Executive,65,3565.53,109,54.854308
+Jewelry & Accessories,6,Skilled,63,3363.12,121,53.382857
+Jewelry & Accessories,2,Entry,62,3280.08,120,52.904516
+Jewelry & Accessories,3,Entry,49,3072.48,100,62.703673
+Jewelry & Accessories,11,Professional,39,2413.35,75,61.880769
+Jewelry & Accessories,15,Executive,36,2293.98,67,63.721667
+Jewelry & Accessories,18,Executive,25,1723.08,47,68.923200
+Jewelry & Accessories,13,Professional,29,1577.76,61,54.405517
+Jewelry & Accessories,9,Skilled,22,1276.74,53,58.033636
+Jewelry & Accessories,5,Skilled,24,1048.38,38,43.682500
+Jewelry & Accessories,19,Executive,13,555.33,22,42.717692
+Jewelry & Accessories,8,Skilled,5,368.49,11,73.698000
+Office & School Supplies,4,Entry,744,63917.13,1477,85.910121
+Office & School Supplies,0,Entry,718,58946.65,1453,82.098398
+Office & School Supplies,7,Skilled,632,46670.46,1246,73.845665
+Office & School Supplies,17,Executive,580,44318.79,1160,76.411707
+Office & School Supplies,1,Entry,529,39984.19,1040,75.584480
+Office & School Supplies,12,Professional,511,38390.03,1007,75.127260
+Office & School Supplies,20,Executive,409,29785.05,818,72.824083
+Office & School Supplies,2,Entry,304,24089.42,614,79.241513
+Office & School Supplies,16,Executive,312,23917.53,634,76.658750
+Office & School Supplies,14,Professional,275,21369.78,564,77.708291
+Office & School Supplies,6,Skilled,196,15240.70,403,77.758673
+Office & School Supplies,10,Professional,139,12608.21,277,90.706547
+Office & School Supplies,3,Entry,171,12607.12,336,73.725848
+Office & School Supplies,15,Executive,173,12500.58,347,72.257688
+Office & School Supplies,5,Skilled,144,11968.19,289,83.112431
+Office & School Supplies,19,Executive,118,8937.73,237,75.743475
+Office & School Supplies,11,Professional,121,7959.24,234,65.778843
+Office & School Supplies,13,Professional,85,6046.89,175,71.139882
+Office & School Supplies,18,Executive,70,5622.05,138,80.315000
+Office & School Supplies,9,Skilled,35,2480.48,66,70.870857
+Office & School Supplies,8,Skilled,24,2179.37,46,90.807083
+Patio & Garden,0,Entry,3752,303241.81,7572,80.821378
+Patio & Garden,4,Entry,3192,249946.15,6388,78.303932
+Patio & Garden,7,Skilled,2412,185099.13,4779,76.740933
+Patio & Garden,17,Executive,1798,143570.87,3614,79.850317
+Patio & Garden,1,Entry,1681,131445.46,3399,78.194801
+Patio & Garden,20,Executive,1406,112891.44,2869,80.292632
+Patio & Garden,12,Professional,1267,97002.53,2548,76.560797
+Patio & Garden,16,Executive,1244,96671.19,2459,77.709960
+Patio & Garden,2,Entry,1151,87953.76,2284,76.415083
+Patio & Garden,14,Professional,1007,74299.62,2011,73.783138
+Patio & Garden,5,Skilled,791,64926.50,1570,82.081542
+Patio & Garden,6,Skilled,855,63538.12,1661,74.313591
+Patio & Garden,3,Entry,693,53047.82,1357,76.548081
+Patio & Garden,10,Professional,629,51597.24,1262,82.030588
+Patio & Garden,18,Executive,602,48937.48,1231,81.291495
+Patio & Garden,19,Executive,538,44494.70,1081,82.703903
+Patio & Garden,15,Executive,402,29848.04,803,74.248856
+Patio & Garden,11,Professional,392,29340.15,767,74.847321
+Patio & Garden,13,Professional,251,18876.99,499,75.207131
+Patio & Garden,9,Skilled,161,12065.60,317,74.941615
+Patio & Garden,8,Skilled,63,4422.99,123,70.206190
+Pets,0,Entry,445,30861.05,880,69.350674
+Pets,7,Skilled,465,30552.40,905,65.704086
+Pets,1,Entry,434,29821.86,865,68.713963
+Pets,4,Entry,372,25842.48,746,69.469032
+Pets,20,Executive,253,18156.31,502,71.764071
+Pets,2,Entry,243,16655.74,477,68.542140
+Pets,17,Executive,231,15573.53,456,67.417879
+Pets,12,Professional,175,13174.15,373,75.280857
+Pets,16,Executive,189,12558.80,375,66.448677
+Pets,3,Entry,179,12543.58,340,70.075866
+Pets,14,Professional,164,10666.66,306,65.040610
+Pets,6,Skilled,161,9814.08,316,60.957019
+Pets,13,Professional,111,7918.69,213,71.339550
+Pets,10,Professional,104,7196.91,204,69.201058
+Pets,11,Professional,105,6581.12,200,62.677333
+Pets,5,Skilled,78,6512.25,168,83.490385
+Pets,9,Skilled,82,5134.47,159,62.615488
+Pets,15,Executive,63,4181.37,118,66.370952
+Pets,19,Executive,58,4129.06,118,71.190690
+Pets,18,Executive,32,2189.57,64,68.424063
+Pets,8,Skilled,3,251.99,6,83.996667
+Pharmacy & OTC,7,Skilled,83,6603.54,154,79.560723
+Pharmacy & OTC,0,Entry,63,5113.89,130,81.172857
+Pharmacy & OTC,1,Entry,61,4819.83,112,79.013607
+Pharmacy & OTC,16,Executive,48,4103.42,96,85.487917
+Pharmacy & OTC,4,Entry,46,3893.27,97,84.636304
+Pharmacy & OTC,17,Executive,47,3858.06,97,82.086383
+Pharmacy & OTC,20,Executive,46,3804.56,97,82.707826
+Pharmacy & OTC,13,Professional,22,2088.83,43,94.946818
+Pharmacy & OTC,12,Professional,26,2088.21,52,80.315769
+Pharmacy & OTC,14,Professional,21,1819.86,41,86.660000
+Pharmacy & OTC,6,Skilled,18,1678.30,38,93.238889
+Pharmacy & OTC,15,Executive,22,1633.44,41,74.247273
+Pharmacy & OTC,11,Professional,14,1386.03,28,99.002143
+Pharmacy & OTC,3,Entry,15,1234.81,25,82.320667
+Pharmacy & OTC,2,Entry,14,1086.27,27,77.590714
+Pharmacy & OTC,18,Executive,8,806.83,18,100.853750
+Pharmacy & OTC,10,Professional,6,663.02,14,110.503333
+Pharmacy & OTC,5,Skilled,9,597.71,16,66.412222
+Pharmacy & OTC,9,Skilled,4,441.95,9,110.487500
+Pharmacy & OTC,19,Executive,4,317.09,7,79.272500
+Pharmacy & OTC,8,Skilled,1,50.30,1,50.300000
+Shoes,4,Entry,339,42495.62,671,125.355811
+Shoes,0,Entry,291,37632.07,591,129.319828
+Shoes,7,Skilled,268,32096.42,510,119.762761
+Shoes,1,Entry,219,27176.99,427,124.095845
+Shoes,17,Executive,197,25468.02,404,129.279289
+Shoes,12,Professional,165,19892.02,316,120.557697
+Shoes,2,Entry,123,15694.11,249,127.594390
+Shoes,14,Professional,124,15565.13,244,125.525242
+Shoes,20,Executive,121,14496.09,232,119.802397
+Shoes,16,Executive,114,13800.65,215,121.058333
+Shoes,6,Skilled,99,12390.48,195,125.156364
+Shoes,10,Professional,78,10300.06,165,132.052051
+Shoes,3,Entry,65,9193.62,147,141.440308
+Shoes,11,Professional,64,8693.63,138,135.837969
+Shoes,15,Executive,63,7761.19,124,123.193492
+Shoes,13,Professional,64,7669.61,120,119.837656
+Shoes,5,Skilled,55,6813.69,109,123.885273
+Shoes,9,Skilled,40,4744.15,75,118.603750
+Shoes,19,Executive,32,3644.08,59,113.877500
+Shoes,18,Executive,25,3134.51,50,125.380400
+Shoes,8,Skilled,4,322.81,5,80.702500
+Sports & Outdoors,17,Executive,52,2870.48,106,55.201538
+Sports & Outdoors,4,Entry,51,2735.08,101,53.629020
+Sports & Outdoors,0,Entry,49,2480.98,90,50.632245
+Sports & Outdoors,7,Skilled,39,2112.24,78,54.160000
+Sports & Outdoors,12,Professional,31,1516.48,56,48.918710
+Sports & Outdoors,1,Entry,26,1489.40,55,57.284615
+Sports & Outdoors,14,Professional,22,1245.68,46,56.621818
+Sports & Outdoors,20,Executive,21,1164.44,43,55.449524
+Sports & Outdoors,16,Executive,22,1056.12,39,48.005455
+Sports & Outdoors,6,Skilled,16,920.72,34,57.545000
+Sports & Outdoors,3,Entry,13,785.32,29,60.409231
+Sports & Outdoors,15,Executive,14,731.16,27,52.225714
+Sports & Outdoors,11,Professional,9,622.84,23,69.204444
+Sports & Outdoors,2,Entry,12,568.68,21,47.390000
+Sports & Outdoors,5,Skilled,9,460.36,17,51.151111
+Sports & Outdoors,10,Professional,10,460.36,17,46.036000
+Sports & Outdoors,19,Executive,7,460.36,17,65.765714
+Sports & Outdoors,18,Executive,2,108.32,4,54.160000
+Sports & Outdoors,8,Skilled,1,81.24,3,81.240000
+Sports & Outdoors,13,Professional,2,81.24,3,40.620000
+Sports & Outdoors,9,Skilled,2,54.16,2,27.080000
+Toys,0,Entry,14087,1139690.89,27969,80.903733
+Toys,4,Entry,13830,1112834.45,27789,80.465253
+Toys,7,Skilled,12620,1017499.77,25331,80.625972
+Toys,1,Entry,11998,975505.54,23917,81.305679
+Toys,20,Executive,7713,616241.09,15409,79.896420
+Toys,17,Executive,6812,548618.08,13604,80.537005
+Toys,2,Entry,6266,503433.47,12484,80.343675
+Toys,12,Professional,5732,455395.66,11492,79.447952
+Toys,14,Professional,5515,443472.14,11038,80.411993
+Toys,16,Executive,5334,424998.91,10675,79.677336
+Toys,6,Skilled,4785,380703.14,9616,79.561785
+Toys,3,Entry,3843,312321.63,7671,81.270265
+Toys,11,Professional,2577,207462.54,5205,80.505448
+Toys,15,Executive,2495,198591.71,4959,79.595876
+Toys,13,Professional,2229,179450.12,4511,80.507008
+Toys,5,Skilled,1929,156805.95,3860,81.288725
+Toys,10,Professional,1820,146070.67,3607,80.258610
+Toys,19,Executive,1654,135564.35,3321,81.961518
+Toys,9,Skilled,1307,107491.79,2605,82.243145
+Toys,18,Executive,1116,89985.56,2247,80.632222
+Toys,8,Skilled,263,21348.11,534,81.171521

@@ -1,0 +1,577 @@
+Store_ID,Store_Name,Supplier_ID,Supplier_Name,Year,Month,Month_Name,Monthly_Revenue,Previous_Month_Revenue,Revenue_Change_Percentage,Volatility_Percentage
+1,Electro Mart,16,Sony Corporation,2015,1,January,86088.44,,,
+1,Electro Mart,16,Sony Corporation,2015,2,February,85864.65,86088.44,-0.26,0.26
+1,Electro Mart,16,Sony Corporation,2015,3,March,81193.30,85864.65,-5.44,5.44
+1,Electro Mart,16,Sony Corporation,2015,4,April,84886.28,81193.30,4.55,4.55
+1,Electro Mart,16,Sony Corporation,2015,5,May,85836.08,84886.28,1.12,1.12
+1,Electro Mart,16,Sony Corporation,2015,6,June,82161.86,85836.08,-4.28,4.28
+1,Electro Mart,16,Sony Corporation,2015,7,July,84755.97,82161.86,3.16,3.16
+1,Electro Mart,16,Sony Corporation,2015,8,August,90956.01,84755.97,7.32,7.32
+1,Electro Mart,16,Sony Corporation,2015,9,September,85035.03,90956.01,-6.51,6.51
+1,Electro Mart,16,Sony Corporation,2015,10,October,86100.22,85035.03,1.25,1.25
+1,Electro Mart,16,Sony Corporation,2015,11,November,88832.26,86100.22,3.17,3.17
+1,Electro Mart,16,Sony Corporation,2015,12,December,91034.07,88832.26,2.48,2.48
+1,Electro Mart,16,Sony Corporation,2016,1,January,87574.32,91034.07,-3.80,3.80
+1,Electro Mart,16,Sony Corporation,2016,2,February,82520.40,87574.32,-5.77,5.77
+1,Electro Mart,16,Sony Corporation,2016,3,March,86912.88,82520.40,5.32,5.32
+1,Electro Mart,16,Sony Corporation,2016,4,April,88896.29,86912.88,2.28,2.28
+1,Electro Mart,16,Sony Corporation,2016,5,May,89609.50,88896.29,0.80,0.80
+1,Electro Mart,16,Sony Corporation,2016,6,June,78250.17,89609.50,-12.68,12.68
+1,Electro Mart,16,Sony Corporation,2016,7,July,89219.04,78250.17,14.02,14.02
+1,Electro Mart,16,Sony Corporation,2016,8,August,89219.47,89219.04,0.00,0.00
+1,Electro Mart,16,Sony Corporation,2016,9,September,86282.12,89219.47,-3.29,3.29
+1,Electro Mart,16,Sony Corporation,2016,10,October,87103.15,86282.12,0.95,0.95
+1,Electro Mart,16,Sony Corporation,2016,11,November,86319.06,87103.15,-0.90,0.90
+1,Electro Mart,16,Sony Corporation,2016,12,December,85451.22,86319.06,-1.01,1.01
+1,Electro Mart,16,Sony Corporation,2017,1,January,90628.68,85451.22,6.06,6.06
+1,Electro Mart,16,Sony Corporation,2017,2,February,82652.94,90628.68,-8.80,8.80
+1,Electro Mart,16,Sony Corporation,2017,3,March,92828.19,82652.94,12.31,12.31
+1,Electro Mart,16,Sony Corporation,2017,4,April,87093.77,92828.19,-6.18,6.18
+1,Electro Mart,16,Sony Corporation,2017,5,May,84979.11,87093.77,-2.43,2.43
+1,Electro Mart,16,Sony Corporation,2017,6,June,80854.64,84979.11,-4.85,4.85
+1,Electro Mart,16,Sony Corporation,2017,7,July,83025.04,80854.64,2.68,2.68
+1,Electro Mart,16,Sony Corporation,2017,8,August,83835.73,83025.04,0.98,0.98
+1,Electro Mart,16,Sony Corporation,2017,9,September,84482.17,83835.73,0.77,0.77
+1,Electro Mart,16,Sony Corporation,2017,10,October,91310.55,84482.17,8.08,8.08
+1,Electro Mart,16,Sony Corporation,2017,11,November,81909.32,91310.55,-10.30,10.30
+1,Electro Mart,16,Sony Corporation,2017,12,December,93207.03,81909.32,13.79,13.79
+1,Electro Mart,16,Sony Corporation,2018,1,January,87030.24,93207.03,-6.63,6.63
+1,Electro Mart,16,Sony Corporation,2018,2,February,77430.40,87030.24,-11.03,11.03
+1,Electro Mart,16,Sony Corporation,2018,3,March,82734.84,77430.40,6.85,6.85
+1,Electro Mart,16,Sony Corporation,2018,4,April,91621.82,82734.84,10.74,10.74
+1,Electro Mart,16,Sony Corporation,2018,5,May,84942.07,91621.82,-7.29,7.29
+1,Electro Mart,16,Sony Corporation,2018,6,June,85295.71,84942.07,0.42,0.42
+1,Electro Mart,16,Sony Corporation,2018,7,July,85409.79,85295.71,0.13,0.13
+1,Electro Mart,16,Sony Corporation,2018,8,August,94365.92,85409.79,10.49,10.49
+1,Electro Mart,16,Sony Corporation,2018,9,September,82267.67,94365.92,-12.82,12.82
+1,Electro Mart,16,Sony Corporation,2018,10,October,92182.92,82267.67,12.05,12.05
+1,Electro Mart,16,Sony Corporation,2018,11,November,82942.76,92182.92,-10.02,10.02
+1,Electro Mart,16,Sony Corporation,2018,12,December,83812.85,82942.76,1.05,1.05
+1,Electro Mart,16,Sony Corporation,2019,1,January,86059.45,83812.85,2.68,2.68
+1,Electro Mart,16,Sony Corporation,2019,2,February,78716.06,86059.45,-8.53,8.53
+1,Electro Mart,16,Sony Corporation,2019,3,March,87679.12,78716.06,11.39,11.39
+1,Electro Mart,16,Sony Corporation,2019,4,April,82843.19,87679.12,-5.52,5.52
+1,Electro Mart,16,Sony Corporation,2019,5,May,84640.92,82843.19,2.17,2.17
+1,Electro Mart,16,Sony Corporation,2019,6,June,91003.72,84640.92,7.52,7.52
+1,Electro Mart,16,Sony Corporation,2019,7,July,92151.17,91003.72,1.26,1.26
+1,Electro Mart,16,Sony Corporation,2019,8,August,86525.53,92151.17,-6.10,6.10
+1,Electro Mart,16,Sony Corporation,2019,9,September,88826.57,86525.53,2.66,2.66
+1,Electro Mart,16,Sony Corporation,2019,10,October,86184.18,88826.57,-2.97,2.97
+1,Electro Mart,16,Sony Corporation,2019,11,November,85371.91,86184.18,-0.94,0.94
+1,Electro Mart,16,Sony Corporation,2019,12,December,85145.43,85371.91,-0.27,0.27
+1,Electro Mart,16,Sony Corporation,2020,1,January,83187.98,85145.43,-2.30,2.30
+1,Electro Mart,16,Sony Corporation,2020,2,February,78515.02,83187.98,-5.62,5.62
+1,Electro Mart,16,Sony Corporation,2020,3,March,90901.10,78515.02,15.78,15.78
+1,Electro Mart,16,Sony Corporation,2020,4,April,81845.25,90901.10,-9.96,9.96
+1,Electro Mart,16,Sony Corporation,2020,5,May,81583.07,81845.25,-0.32,0.32
+1,Electro Mart,16,Sony Corporation,2020,6,June,80090.37,81583.07,-1.83,1.83
+1,Electro Mart,16,Sony Corporation,2020,7,July,82064.49,80090.37,2.46,2.46
+1,Electro Mart,16,Sony Corporation,2020,8,August,89873.03,82064.49,9.52,9.52
+1,Electro Mart,16,Sony Corporation,2020,9,September,81898.27,89873.03,-8.87,8.87
+1,Electro Mart,16,Sony Corporation,2020,10,October,89889.19,81898.27,9.76,9.76
+1,Electro Mart,16,Sony Corporation,2020,11,November,83764.79,89889.19,-6.81,6.81
+1,Electro Mart,16,Sony Corporation,2020,12,December,91744.34,83764.79,9.53,9.53
+2,Tech Haven,13,Samsung Electronics,2015,1,January,83467.41,,,
+2,Tech Haven,13,Samsung Electronics,2015,2,February,68262.23,83467.41,-18.22,18.22
+2,Tech Haven,13,Samsung Electronics,2015,3,March,77088.69,68262.23,12.93,12.93
+2,Tech Haven,13,Samsung Electronics,2015,4,April,76788.57,77088.69,-0.39,0.39
+2,Tech Haven,13,Samsung Electronics,2015,5,May,78059.91,76788.57,1.66,1.66
+2,Tech Haven,13,Samsung Electronics,2015,6,June,86249.77,78059.91,10.49,10.49
+2,Tech Haven,13,Samsung Electronics,2015,7,July,81991.35,86249.77,-4.94,4.94
+2,Tech Haven,13,Samsung Electronics,2015,8,August,80454.96,81991.35,-1.87,1.87
+2,Tech Haven,13,Samsung Electronics,2015,9,September,77987.84,80454.96,-3.07,3.07
+2,Tech Haven,13,Samsung Electronics,2015,10,October,78919.13,77987.84,1.19,1.19
+2,Tech Haven,13,Samsung Electronics,2015,11,November,76910.39,78919.13,-2.55,2.55
+2,Tech Haven,13,Samsung Electronics,2015,12,December,83292.65,76910.39,8.30,8.30
+2,Tech Haven,13,Samsung Electronics,2016,1,January,79982.20,83292.65,-3.97,3.97
+2,Tech Haven,13,Samsung Electronics,2016,2,February,79868.92,79982.20,-0.14,0.14
+2,Tech Haven,13,Samsung Electronics,2016,3,March,86022.73,79868.92,7.70,7.70
+2,Tech Haven,13,Samsung Electronics,2016,4,April,78817.67,86022.73,-8.38,8.38
+2,Tech Haven,13,Samsung Electronics,2016,5,May,81822.96,78817.67,3.81,3.81
+2,Tech Haven,13,Samsung Electronics,2016,6,June,82744.84,81822.96,1.13,1.13
+2,Tech Haven,13,Samsung Electronics,2016,7,July,78291.33,82744.84,-5.38,5.38
+2,Tech Haven,13,Samsung Electronics,2016,8,August,81778.43,78291.33,4.45,4.45
+2,Tech Haven,13,Samsung Electronics,2016,9,September,75936.64,81778.43,-7.14,7.14
+2,Tech Haven,13,Samsung Electronics,2016,10,October,82245.44,75936.64,8.31,8.31
+2,Tech Haven,13,Samsung Electronics,2016,11,November,79226.62,82245.44,-3.67,3.67
+2,Tech Haven,13,Samsung Electronics,2016,12,December,81192.65,79226.62,2.48,2.48
+2,Tech Haven,13,Samsung Electronics,2017,1,January,82181.47,81192.65,1.22,1.22
+2,Tech Haven,13,Samsung Electronics,2017,2,February,72294.82,82181.47,-12.03,12.03
+2,Tech Haven,13,Samsung Electronics,2017,3,March,79273.00,72294.82,9.65,9.65
+2,Tech Haven,13,Samsung Electronics,2017,4,April,77306.37,79273.00,-2.48,2.48
+2,Tech Haven,13,Samsung Electronics,2017,5,May,82000.38,77306.37,6.07,6.07
+2,Tech Haven,13,Samsung Electronics,2017,6,June,77273.47,82000.38,-5.76,5.76
+2,Tech Haven,13,Samsung Electronics,2017,7,July,79921.02,77273.47,3.43,3.43
+2,Tech Haven,13,Samsung Electronics,2017,8,August,83751.85,79921.02,4.79,4.79
+2,Tech Haven,13,Samsung Electronics,2017,9,September,75547.52,83751.85,-9.80,9.80
+2,Tech Haven,13,Samsung Electronics,2017,10,October,76055.41,75547.52,0.67,0.67
+2,Tech Haven,13,Samsung Electronics,2017,11,November,82639.28,76055.41,8.66,8.66
+2,Tech Haven,13,Samsung Electronics,2017,12,December,79077.36,82639.28,-4.31,4.31
+2,Tech Haven,13,Samsung Electronics,2018,1,January,85301.84,79077.36,7.87,7.87
+2,Tech Haven,13,Samsung Electronics,2018,2,February,75000.66,85301.84,-12.08,12.08
+2,Tech Haven,13,Samsung Electronics,2018,3,March,84802.69,75000.66,13.07,13.07
+2,Tech Haven,13,Samsung Electronics,2018,4,April,75647.48,84802.69,-10.80,10.80
+2,Tech Haven,13,Samsung Electronics,2018,5,May,78704.09,75647.48,4.04,4.04
+2,Tech Haven,13,Samsung Electronics,2018,6,June,76378.13,78704.09,-2.96,2.96
+2,Tech Haven,13,Samsung Electronics,2018,7,July,81558.28,76378.13,6.78,6.78
+2,Tech Haven,13,Samsung Electronics,2018,8,August,81560.16,81558.28,0.00,0.00
+2,Tech Haven,13,Samsung Electronics,2018,9,September,80627.21,81560.16,-1.14,1.14
+2,Tech Haven,13,Samsung Electronics,2018,10,October,78276.47,80627.21,-2.92,2.92
+2,Tech Haven,13,Samsung Electronics,2018,11,November,82205.97,78276.47,5.02,5.02
+2,Tech Haven,13,Samsung Electronics,2018,12,December,80428.75,82205.97,-2.16,2.16
+2,Tech Haven,13,Samsung Electronics,2019,1,January,87158.04,80428.75,8.37,8.37
+2,Tech Haven,13,Samsung Electronics,2019,2,February,72446.61,87158.04,-16.88,16.88
+2,Tech Haven,13,Samsung Electronics,2019,3,March,80114.39,72446.61,10.58,10.58
+2,Tech Haven,13,Samsung Electronics,2019,4,April,79834.10,80114.39,-0.35,0.35
+2,Tech Haven,13,Samsung Electronics,2019,5,May,83994.99,79834.10,5.21,5.21
+2,Tech Haven,13,Samsung Electronics,2019,6,June,79372.64,83994.99,-5.50,5.50
+2,Tech Haven,13,Samsung Electronics,2019,7,July,84801.70,79372.64,6.84,6.84
+2,Tech Haven,13,Samsung Electronics,2019,8,August,79705.10,84801.70,-6.01,6.01
+2,Tech Haven,13,Samsung Electronics,2019,9,September,78405.87,79705.10,-1.63,1.63
+2,Tech Haven,13,Samsung Electronics,2019,10,October,83643.85,78405.87,6.68,6.68
+2,Tech Haven,13,Samsung Electronics,2019,11,November,76980.91,83643.85,-7.97,7.97
+2,Tech Haven,13,Samsung Electronics,2019,12,December,84465.35,76980.91,9.72,9.72
+2,Tech Haven,13,Samsung Electronics,2020,1,January,84429.26,84465.35,-0.04,0.04
+2,Tech Haven,13,Samsung Electronics,2020,2,February,74442.35,84429.26,-11.83,11.83
+2,Tech Haven,13,Samsung Electronics,2020,3,March,83291.03,74442.35,11.89,11.89
+2,Tech Haven,13,Samsung Electronics,2020,4,April,85476.29,83291.03,2.62,2.62
+2,Tech Haven,13,Samsung Electronics,2020,5,May,83298.51,85476.29,-2.55,2.55
+2,Tech Haven,13,Samsung Electronics,2020,6,June,79512.89,83298.51,-4.54,4.54
+2,Tech Haven,13,Samsung Electronics,2020,7,July,86946.89,79512.89,9.35,9.35
+2,Tech Haven,13,Samsung Electronics,2020,8,August,83265.64,86946.89,-4.23,4.23
+2,Tech Haven,13,Samsung Electronics,2020,9,September,75613.24,83265.64,-9.19,9.19
+2,Tech Haven,13,Samsung Electronics,2020,10,October,81081.07,75613.24,7.23,7.23
+2,Tech Haven,13,Samsung Electronics,2020,11,November,82114.78,81081.07,1.27,1.27
+2,Tech Haven,13,Samsung Electronics,2020,12,December,80391.44,82114.78,-2.10,2.10
+3,Sound Zone,39,Sonos Inc.,2015,1,January,139556.86,,,
+3,Sound Zone,39,Sonos Inc.,2015,2,February,124830.72,139556.86,-10.55,10.55
+3,Sound Zone,39,Sonos Inc.,2015,3,March,140317.74,124830.72,12.41,12.41
+3,Sound Zone,39,Sonos Inc.,2015,4,April,142457.07,140317.74,1.52,1.52
+3,Sound Zone,39,Sonos Inc.,2015,5,May,142263.64,142457.07,-0.14,0.14
+3,Sound Zone,39,Sonos Inc.,2015,6,June,136396.04,142263.64,-4.12,4.12
+3,Sound Zone,39,Sonos Inc.,2015,7,July,136145.23,136396.04,-0.18,0.18
+3,Sound Zone,39,Sonos Inc.,2015,8,August,138368.26,136145.23,1.63,1.63
+3,Sound Zone,39,Sonos Inc.,2015,9,September,132065.27,138368.26,-4.56,4.56
+3,Sound Zone,39,Sonos Inc.,2015,10,October,132734.31,132065.27,0.51,0.51
+3,Sound Zone,39,Sonos Inc.,2015,11,November,138843.04,132734.31,4.60,4.60
+3,Sound Zone,39,Sonos Inc.,2015,12,December,145449.86,138843.04,4.76,4.76
+3,Sound Zone,39,Sonos Inc.,2016,1,January,141534.40,145449.86,-2.69,2.69
+3,Sound Zone,39,Sonos Inc.,2016,2,February,130763.83,141534.40,-7.61,7.61
+3,Sound Zone,39,Sonos Inc.,2016,3,March,132845.55,130763.83,1.59,1.59
+3,Sound Zone,39,Sonos Inc.,2016,4,April,131815.46,132845.55,-0.78,0.78
+3,Sound Zone,39,Sonos Inc.,2016,5,May,143153.05,131815.46,8.60,8.60
+3,Sound Zone,39,Sonos Inc.,2016,6,June,127389.72,143153.05,-11.01,11.01
+3,Sound Zone,39,Sonos Inc.,2016,7,July,139629.10,127389.72,9.61,9.61
+3,Sound Zone,39,Sonos Inc.,2016,8,August,140281.98,139629.10,0.47,0.47
+3,Sound Zone,39,Sonos Inc.,2016,9,September,136552.79,140281.98,-2.66,2.66
+3,Sound Zone,39,Sonos Inc.,2016,10,October,138790.72,136552.79,1.64,1.64
+3,Sound Zone,39,Sonos Inc.,2016,11,November,133854.23,138790.72,-3.56,3.56
+3,Sound Zone,39,Sonos Inc.,2016,12,December,145314.51,133854.23,8.56,8.56
+3,Sound Zone,39,Sonos Inc.,2017,1,January,130785.21,145314.51,-10.00,10.00
+3,Sound Zone,39,Sonos Inc.,2017,2,February,124230.35,130785.21,-5.01,5.01
+3,Sound Zone,39,Sonos Inc.,2017,3,March,134888.83,124230.35,8.58,8.58
+3,Sound Zone,39,Sonos Inc.,2017,4,April,140600.74,134888.83,4.23,4.23
+3,Sound Zone,39,Sonos Inc.,2017,5,May,143245.78,140600.74,1.88,1.88
+3,Sound Zone,39,Sonos Inc.,2017,6,June,132314.42,143245.78,-7.63,7.63
+3,Sound Zone,39,Sonos Inc.,2017,7,July,134049.47,132314.42,1.31,1.31
+3,Sound Zone,39,Sonos Inc.,2017,8,August,138644.99,134049.47,3.43,3.43
+3,Sound Zone,39,Sonos Inc.,2017,9,September,137887.10,138644.99,-0.55,0.55
+3,Sound Zone,39,Sonos Inc.,2017,10,October,145391.08,137887.10,5.44,5.44
+3,Sound Zone,39,Sonos Inc.,2017,11,November,137282.34,145391.08,-5.58,5.58
+3,Sound Zone,39,Sonos Inc.,2017,12,December,141469.45,137282.34,3.05,3.05
+3,Sound Zone,39,Sonos Inc.,2018,1,January,133470.92,141469.45,-5.65,5.65
+3,Sound Zone,39,Sonos Inc.,2018,2,February,126910.22,133470.92,-4.92,4.92
+3,Sound Zone,39,Sonos Inc.,2018,3,March,141544.47,126910.22,11.53,11.53
+3,Sound Zone,39,Sonos Inc.,2018,4,April,134242.21,141544.47,-5.16,5.16
+3,Sound Zone,39,Sonos Inc.,2018,5,May,137542.27,134242.21,2.46,2.46
+3,Sound Zone,39,Sonos Inc.,2018,6,June,138756.32,137542.27,0.88,0.88
+3,Sound Zone,39,Sonos Inc.,2018,7,July,148003.93,138756.32,6.66,6.66
+3,Sound Zone,39,Sonos Inc.,2018,8,August,142097.56,148003.93,-3.99,3.99
+3,Sound Zone,39,Sonos Inc.,2018,9,September,138773.12,142097.56,-2.34,2.34
+3,Sound Zone,39,Sonos Inc.,2018,10,October,143316.83,138773.12,3.27,3.27
+3,Sound Zone,39,Sonos Inc.,2018,11,November,133881.60,143316.83,-6.58,6.58
+3,Sound Zone,39,Sonos Inc.,2018,12,December,146456.54,133881.60,9.39,9.39
+3,Sound Zone,39,Sonos Inc.,2019,1,January,143701.19,146456.54,-1.88,1.88
+3,Sound Zone,39,Sonos Inc.,2019,2,February,126023.56,143701.19,-12.30,12.30
+3,Sound Zone,39,Sonos Inc.,2019,3,March,138644.81,126023.56,10.01,10.01
+3,Sound Zone,39,Sonos Inc.,2019,4,April,136272.07,138644.81,-1.71,1.71
+3,Sound Zone,39,Sonos Inc.,2019,5,May,143431.46,136272.07,5.25,5.25
+3,Sound Zone,39,Sonos Inc.,2019,6,June,137420.77,143431.46,-4.19,4.19
+3,Sound Zone,39,Sonos Inc.,2019,7,July,143945.00,137420.77,4.75,4.75
+3,Sound Zone,39,Sonos Inc.,2019,8,August,143890.69,143945.00,-0.04,0.04
+3,Sound Zone,39,Sonos Inc.,2019,9,September,131050.26,143890.69,-8.92,8.92
+3,Sound Zone,39,Sonos Inc.,2019,10,October,143738.74,131050.26,9.68,9.68
+3,Sound Zone,39,Sonos Inc.,2019,11,November,133436.16,143738.74,-7.17,7.17
+3,Sound Zone,39,Sonos Inc.,2019,12,December,142412.79,133436.16,6.73,6.73
+3,Sound Zone,39,Sonos Inc.,2020,1,January,141546.90,142412.79,-0.61,0.61
+3,Sound Zone,39,Sonos Inc.,2020,2,February,134249.18,141546.90,-5.16,5.16
+3,Sound Zone,39,Sonos Inc.,2020,3,March,138829.57,134249.18,3.41,3.41
+3,Sound Zone,39,Sonos Inc.,2020,4,April,138240.57,138829.57,-0.42,0.42
+3,Sound Zone,39,Sonos Inc.,2020,5,May,135322.49,138240.57,-2.11,2.11
+3,Sound Zone,39,Sonos Inc.,2020,6,June,141322.11,135322.49,4.43,4.43
+3,Sound Zone,39,Sonos Inc.,2020,7,July,142222.91,141322.11,0.64,0.64
+3,Sound Zone,39,Sonos Inc.,2020,8,August,136584.92,142222.91,-3.96,3.96
+3,Sound Zone,39,Sonos Inc.,2020,9,September,133321.89,136584.92,-2.39,2.39
+3,Sound Zone,39,Sonos Inc.,2020,10,October,136655.37,133321.89,2.50,2.50
+3,Sound Zone,39,Sonos Inc.,2020,11,November,135104.90,136655.37,-1.13,1.13
+3,Sound Zone,39,Sonos Inc.,2020,12,December,138244.13,135104.90,2.32,2.32
+4,Game Zone,18,Razer Inc.,2015,1,January,130051.34,,,
+4,Game Zone,18,Razer Inc.,2015,2,February,115189.79,130051.34,-11.43,11.43
+4,Game Zone,18,Razer Inc.,2015,3,March,132039.96,115189.79,14.63,14.63
+4,Game Zone,18,Razer Inc.,2015,4,April,128510.19,132039.96,-2.67,2.67
+4,Game Zone,18,Razer Inc.,2015,5,May,132646.55,128510.19,3.22,3.22
+4,Game Zone,18,Razer Inc.,2015,6,June,126974.28,132646.55,-4.28,4.28
+4,Game Zone,18,Razer Inc.,2015,7,July,129323.34,126974.28,1.85,1.85
+4,Game Zone,18,Razer Inc.,2015,8,August,127718.73,129323.34,-1.24,1.24
+4,Game Zone,18,Razer Inc.,2015,9,September,125407.68,127718.73,-1.81,1.81
+4,Game Zone,18,Razer Inc.,2015,10,October,125859.51,125407.68,0.36,0.36
+4,Game Zone,18,Razer Inc.,2015,11,November,122042.08,125859.51,-3.03,3.03
+4,Game Zone,18,Razer Inc.,2015,12,December,119492.26,122042.08,-2.09,2.09
+4,Game Zone,18,Razer Inc.,2016,1,January,127671.99,119492.26,6.85,6.85
+4,Game Zone,18,Razer Inc.,2016,2,February,120278.94,127671.99,-5.79,5.79
+4,Game Zone,18,Razer Inc.,2016,3,March,134045.94,120278.94,11.45,11.45
+4,Game Zone,18,Razer Inc.,2016,4,April,124489.37,134045.94,-7.13,7.13
+4,Game Zone,18,Razer Inc.,2016,5,May,123071.42,124489.37,-1.14,1.14
+4,Game Zone,18,Razer Inc.,2016,6,June,130424.80,123071.42,5.97,5.97
+4,Game Zone,18,Razer Inc.,2016,7,July,123750.10,130424.80,-5.12,5.12
+4,Game Zone,18,Razer Inc.,2016,8,August,124111.01,123750.10,0.29,0.29
+4,Game Zone,18,Razer Inc.,2016,9,September,123013.09,124111.01,-0.88,0.88
+4,Game Zone,18,Razer Inc.,2016,10,October,126894.37,123013.09,3.16,3.16
+4,Game Zone,18,Razer Inc.,2016,11,November,123690.55,126894.37,-2.52,2.52
+4,Game Zone,18,Razer Inc.,2016,12,December,126417.41,123690.55,2.20,2.20
+4,Game Zone,18,Razer Inc.,2017,1,January,126203.21,126417.41,-0.17,0.17
+4,Game Zone,18,Razer Inc.,2017,2,February,113343.76,126203.21,-10.19,10.19
+4,Game Zone,18,Razer Inc.,2017,3,March,129969.33,113343.76,14.67,14.67
+4,Game Zone,18,Razer Inc.,2017,4,April,129430.06,129969.33,-0.41,0.41
+4,Game Zone,18,Razer Inc.,2017,5,May,119719.07,129430.06,-7.50,7.50
+4,Game Zone,18,Razer Inc.,2017,6,June,124967.27,119719.07,4.38,4.38
+4,Game Zone,18,Razer Inc.,2017,7,July,123570.40,124967.27,-1.12,1.12
+4,Game Zone,18,Razer Inc.,2017,8,August,126842.48,123570.40,2.65,2.65
+4,Game Zone,18,Razer Inc.,2017,9,September,126176.61,126842.48,-0.52,0.52
+4,Game Zone,18,Razer Inc.,2017,10,October,140718.30,126176.61,11.52,11.52
+4,Game Zone,18,Razer Inc.,2017,11,November,123542.84,140718.30,-12.21,12.21
+4,Game Zone,18,Razer Inc.,2017,12,December,131629.23,123542.84,6.55,6.55
+4,Game Zone,18,Razer Inc.,2018,1,January,124823.97,131629.23,-5.17,5.17
+4,Game Zone,18,Razer Inc.,2018,2,February,118151.04,124823.97,-5.35,5.35
+4,Game Zone,18,Razer Inc.,2018,3,March,130248.62,118151.04,10.24,10.24
+4,Game Zone,18,Razer Inc.,2018,4,April,114959.36,130248.62,-11.74,11.74
+4,Game Zone,18,Razer Inc.,2018,5,May,130558.42,114959.36,13.57,13.57
+4,Game Zone,18,Razer Inc.,2018,6,June,125162.53,130558.42,-4.13,4.13
+4,Game Zone,18,Razer Inc.,2018,7,July,120504.14,125162.53,-3.72,3.72
+4,Game Zone,18,Razer Inc.,2018,8,August,130255.80,120504.14,8.09,8.09
+4,Game Zone,18,Razer Inc.,2018,9,September,128196.89,130255.80,-1.58,1.58
+4,Game Zone,18,Razer Inc.,2018,10,October,125246.93,128196.89,-2.30,2.30
+4,Game Zone,18,Razer Inc.,2018,11,November,126642.61,125246.93,1.11,1.11
+4,Game Zone,18,Razer Inc.,2018,12,December,119598.01,126642.61,-5.56,5.56
+4,Game Zone,18,Razer Inc.,2019,1,January,126007.80,119598.01,5.36,5.36
+4,Game Zone,18,Razer Inc.,2019,2,February,108590.17,126007.80,-13.82,13.82
+4,Game Zone,18,Razer Inc.,2019,3,March,119153.97,108590.17,9.73,9.73
+4,Game Zone,18,Razer Inc.,2019,4,April,119936.52,119153.97,0.66,0.66
+4,Game Zone,18,Razer Inc.,2019,5,May,122041.64,119936.52,1.76,1.76
+4,Game Zone,18,Razer Inc.,2019,6,June,123636.28,122041.64,1.31,1.31
+4,Game Zone,18,Razer Inc.,2019,7,July,125762.91,123636.28,1.72,1.72
+4,Game Zone,18,Razer Inc.,2019,8,August,132530.64,125762.91,5.38,5.38
+4,Game Zone,18,Razer Inc.,2019,9,September,127690.86,132530.64,-3.65,3.65
+4,Game Zone,18,Razer Inc.,2019,10,October,130511.33,127690.86,2.21,2.21
+4,Game Zone,18,Razer Inc.,2019,11,November,122529.41,130511.33,-6.12,6.12
+4,Game Zone,18,Razer Inc.,2019,12,December,132034.28,122529.41,7.76,7.76
+4,Game Zone,18,Razer Inc.,2020,1,January,124225.38,132034.28,-5.91,5.91
+4,Game Zone,18,Razer Inc.,2020,2,February,124168.19,124225.38,-0.05,0.05
+4,Game Zone,18,Razer Inc.,2020,3,March,125934.76,124168.19,1.42,1.42
+4,Game Zone,18,Razer Inc.,2020,4,April,114121.08,125934.76,-9.38,9.38
+4,Game Zone,18,Razer Inc.,2020,5,May,127220.53,114121.08,11.48,11.48
+4,Game Zone,18,Razer Inc.,2020,6,June,125100.15,127220.53,-1.67,1.67
+4,Game Zone,18,Razer Inc.,2020,7,July,123199.73,125100.15,-1.52,1.52
+4,Game Zone,18,Razer Inc.,2020,8,August,127665.82,123199.73,3.63,3.63
+4,Game Zone,18,Razer Inc.,2020,9,September,128703.92,127665.82,0.81,0.81
+4,Game Zone,18,Razer Inc.,2020,10,October,132841.48,128703.92,3.21,3.21
+4,Game Zone,18,Razer Inc.,2020,11,November,121328.36,132841.48,-8.67,8.67
+4,Game Zone,18,Razer Inc.,2020,12,December,125439.27,121328.36,3.39,3.39
+5,InnoTech,18,Razer Inc.,2015,1,January,87865.58,,,
+5,InnoTech,18,Razer Inc.,2015,2,February,79157.29,87865.58,-9.91,9.91
+5,InnoTech,18,Razer Inc.,2015,3,March,81910.75,79157.29,3.48,3.48
+5,InnoTech,18,Razer Inc.,2015,4,April,84436.56,81910.75,3.08,3.08
+5,InnoTech,18,Razer Inc.,2015,5,May,89341.67,84436.56,5.81,5.81
+5,InnoTech,18,Razer Inc.,2015,6,June,77122.56,89341.67,-13.68,13.68
+5,InnoTech,18,Razer Inc.,2015,7,July,89973.95,77122.56,16.66,16.66
+5,InnoTech,18,Razer Inc.,2015,8,August,91976.53,89973.95,2.23,2.23
+5,InnoTech,18,Razer Inc.,2015,9,September,82452.76,91976.53,-10.35,10.35
+5,InnoTech,18,Razer Inc.,2015,10,October,88057.30,82452.76,6.80,6.80
+5,InnoTech,18,Razer Inc.,2015,11,November,83350.10,88057.30,-5.35,5.35
+5,InnoTech,18,Razer Inc.,2015,12,December,83443.56,83350.10,0.11,0.11
+5,InnoTech,18,Razer Inc.,2016,1,January,86259.81,83443.56,3.38,3.38
+5,InnoTech,18,Razer Inc.,2016,2,February,84896.17,86259.81,-1.58,1.58
+5,InnoTech,18,Razer Inc.,2016,3,March,91024.27,84896.17,7.22,7.22
+5,InnoTech,18,Razer Inc.,2016,4,April,82541.26,91024.27,-9.32,9.32
+5,InnoTech,18,Razer Inc.,2016,5,May,88327.30,82541.26,7.01,7.01
+5,InnoTech,18,Razer Inc.,2016,6,June,84404.91,88327.30,-4.44,4.44
+5,InnoTech,18,Razer Inc.,2016,7,July,89677.68,84404.91,6.25,6.25
+5,InnoTech,18,Razer Inc.,2016,8,August,88263.50,89677.68,-1.58,1.58
+5,InnoTech,18,Razer Inc.,2016,9,September,83697.70,88263.50,-5.17,5.17
+5,InnoTech,18,Razer Inc.,2016,10,October,90811.02,83697.70,8.50,8.50
+5,InnoTech,18,Razer Inc.,2016,11,November,80388.24,90811.02,-11.48,11.48
+5,InnoTech,18,Razer Inc.,2016,12,December,89662.90,80388.24,11.54,11.54
+5,InnoTech,18,Razer Inc.,2017,1,January,87647.40,89662.90,-2.25,2.25
+5,InnoTech,18,Razer Inc.,2017,2,February,71504.07,87647.40,-18.42,18.42
+5,InnoTech,18,Razer Inc.,2017,3,March,87141.12,71504.07,21.87,21.87
+5,InnoTech,18,Razer Inc.,2017,4,April,83079.29,87141.12,-4.66,4.66
+5,InnoTech,18,Razer Inc.,2017,5,May,85438.12,83079.29,2.84,2.84
+5,InnoTech,18,Razer Inc.,2017,6,June,81571.98,85438.12,-4.53,4.53
+5,InnoTech,18,Razer Inc.,2017,7,July,83374.43,81571.98,2.21,2.21
+5,InnoTech,18,Razer Inc.,2017,8,August,79795.30,83374.43,-4.29,4.29
+5,InnoTech,18,Razer Inc.,2017,9,September,84549.77,79795.30,5.96,5.96
+5,InnoTech,18,Razer Inc.,2017,10,October,81815.44,84549.77,-3.23,3.23
+5,InnoTech,18,Razer Inc.,2017,11,November,83634.09,81815.44,2.22,2.22
+5,InnoTech,18,Razer Inc.,2017,12,December,86811.82,83634.09,3.80,3.80
+5,InnoTech,18,Razer Inc.,2018,1,January,84726.49,86811.82,-2.40,2.40
+5,InnoTech,18,Razer Inc.,2018,2,February,79091.11,84726.49,-6.65,6.65
+5,InnoTech,18,Razer Inc.,2018,3,March,86885.34,79091.11,9.85,9.85
+5,InnoTech,18,Razer Inc.,2018,4,April,80466.44,86885.34,-7.39,7.39
+5,InnoTech,18,Razer Inc.,2018,5,May,92365.67,80466.44,14.79,14.79
+5,InnoTech,18,Razer Inc.,2018,6,June,81166.99,92365.67,-12.12,12.12
+5,InnoTech,18,Razer Inc.,2018,7,July,82315.63,81166.99,1.42,1.42
+5,InnoTech,18,Razer Inc.,2018,8,August,90309.83,82315.63,9.71,9.71
+5,InnoTech,18,Razer Inc.,2018,9,September,81324.29,90309.83,-9.95,9.95
+5,InnoTech,18,Razer Inc.,2018,10,October,83561.33,81324.29,2.75,2.75
+5,InnoTech,18,Razer Inc.,2018,11,November,84567.79,83561.33,1.20,1.20
+5,InnoTech,18,Razer Inc.,2018,12,December,76875.37,84567.79,-9.10,9.10
+5,InnoTech,18,Razer Inc.,2019,1,January,87194.17,76875.37,13.42,13.42
+5,InnoTech,18,Razer Inc.,2019,2,February,77149.74,87194.17,-11.52,11.52
+5,InnoTech,18,Razer Inc.,2019,3,March,83712.67,77149.74,8.51,8.51
+5,InnoTech,18,Razer Inc.,2019,4,April,85204.25,83712.67,1.78,1.78
+5,InnoTech,18,Razer Inc.,2019,5,May,80168.88,85204.25,-5.91,5.91
+5,InnoTech,18,Razer Inc.,2019,6,June,81908.56,80168.88,2.17,2.17
+5,InnoTech,18,Razer Inc.,2019,7,July,80954.98,81908.56,-1.16,1.16
+5,InnoTech,18,Razer Inc.,2019,8,August,87053.19,80954.98,7.53,7.53
+5,InnoTech,18,Razer Inc.,2019,9,September,82670.21,87053.19,-5.03,5.03
+5,InnoTech,18,Razer Inc.,2019,10,October,84758.48,82670.21,2.53,2.53
+5,InnoTech,18,Razer Inc.,2019,11,November,80398.42,84758.48,-5.14,5.14
+5,InnoTech,18,Razer Inc.,2019,12,December,80238.38,80398.42,-0.20,0.20
+5,InnoTech,18,Razer Inc.,2020,1,January,80436.15,80238.38,0.25,0.25
+5,InnoTech,18,Razer Inc.,2020,2,February,80140.74,80436.15,-0.37,0.37
+5,InnoTech,18,Razer Inc.,2020,3,March,87293.87,80140.74,8.93,8.93
+5,InnoTech,18,Razer Inc.,2020,4,April,83888.68,87293.87,-3.90,3.90
+5,InnoTech,18,Razer Inc.,2020,5,May,87724.50,83888.68,4.57,4.57
+5,InnoTech,18,Razer Inc.,2020,6,June,81750.79,87724.50,-6.81,6.81
+5,InnoTech,18,Razer Inc.,2020,7,July,80894.27,81750.79,-1.05,1.05
+5,InnoTech,18,Razer Inc.,2020,8,August,80857.41,80894.27,-0.05,0.05
+5,InnoTech,18,Razer Inc.,2020,9,September,85217.92,80857.41,5.39,5.39
+5,InnoTech,18,Razer Inc.,2020,10,October,90102.69,85217.92,5.73,5.73
+5,InnoTech,18,Razer Inc.,2020,11,November,83077.40,90102.69,-7.80,7.80
+5,InnoTech,18,Razer Inc.,2020,12,December,83118.10,83077.40,0.05,0.05
+51,Pakistan,51,Pakistan,2015,1,January,7747.74,,,
+51,Pakistan,51,Pakistan,2015,2,February,6017.70,7747.74,-22.33,22.33
+51,Pakistan,51,Pakistan,2015,3,March,7000.99,6017.70,16.34,16.34
+51,Pakistan,51,Pakistan,2015,4,April,7624.75,7000.99,8.91,8.91
+51,Pakistan,51,Pakistan,2015,5,May,7518.51,7624.75,-1.39,1.39
+51,Pakistan,51,Pakistan,2015,6,June,6814.70,7518.51,-9.36,9.36
+51,Pakistan,51,Pakistan,2015,7,July,8033.05,6814.70,17.88,17.88
+51,Pakistan,51,Pakistan,2015,8,August,7767.66,8033.05,-3.30,3.30
+51,Pakistan,51,Pakistan,2015,9,September,7690.04,7767.66,-1.00,1.00
+51,Pakistan,51,Pakistan,2015,10,October,9045.12,7690.04,17.62,17.62
+51,Pakistan,51,Pakistan,2015,11,November,8264.39,9045.12,-8.63,8.63
+51,Pakistan,51,Pakistan,2015,12,December,9663.09,8264.39,16.92,16.92
+51,Pakistan,51,Pakistan,2016,1,January,8166.65,9663.09,-15.49,15.49
+51,Pakistan,51,Pakistan,2016,2,February,8455.75,8166.65,3.54,3.54
+51,Pakistan,51,Pakistan,2016,3,March,7555.87,8455.75,-10.64,10.64
+51,Pakistan,51,Pakistan,2016,4,April,8202.25,7555.87,8.55,8.55
+51,Pakistan,51,Pakistan,2016,5,May,8846.64,8202.25,7.86,7.86
+51,Pakistan,51,Pakistan,2016,6,June,7707.75,8846.64,-12.87,12.87
+51,Pakistan,51,Pakistan,2016,7,July,7488.08,7707.75,-2.85,2.85
+51,Pakistan,51,Pakistan,2016,8,August,6895.73,7488.08,-7.91,7.91
+51,Pakistan,51,Pakistan,2016,9,September,8146.62,6895.73,18.14,18.14
+51,Pakistan,51,Pakistan,2016,10,October,8520.36,8146.62,4.59,4.59
+51,Pakistan,51,Pakistan,2016,11,November,6210.63,8520.36,-27.11,27.11
+51,Pakistan,51,Pakistan,2016,12,December,8121.97,6210.63,30.78,30.78
+51,Pakistan,51,Pakistan,2017,1,January,9354.14,8121.97,15.17,15.17
+51,Pakistan,51,Pakistan,2017,2,February,6065.87,9354.14,-35.15,35.15
+51,Pakistan,51,Pakistan,2017,3,March,7443.74,6065.87,22.72,22.72
+51,Pakistan,51,Pakistan,2017,4,April,7104.23,7443.74,-4.56,4.56
+51,Pakistan,51,Pakistan,2017,5,May,8341.03,7104.23,17.41,17.41
+51,Pakistan,51,Pakistan,2017,6,June,8376.63,8341.03,0.43,0.43
+51,Pakistan,51,Pakistan,2017,7,July,9332.39,8376.63,11.41,11.41
+51,Pakistan,51,Pakistan,2017,8,August,7920.86,9332.39,-15.13,15.13
+51,Pakistan,51,Pakistan,2017,9,September,7755.95,7920.86,-2.08,2.08
+51,Pakistan,51,Pakistan,2017,10,October,8100.40,7755.95,4.44,4.44
+51,Pakistan,51,Pakistan,2017,11,November,8981.76,8100.40,10.88,10.88
+51,Pakistan,51,Pakistan,2017,12,December,7554.56,8981.76,-15.89,15.89
+51,Pakistan,51,Pakistan,2018,1,January,6929.96,7554.56,-8.27,8.27
+51,Pakistan,51,Pakistan,2018,2,February,7609.57,6929.96,9.81,9.81
+51,Pakistan,51,Pakistan,2018,3,March,6271.04,7609.57,-17.59,17.59
+51,Pakistan,51,Pakistan,2018,4,April,9699.30,6271.04,54.67,54.67
+51,Pakistan,51,Pakistan,2018,5,May,7087.49,9699.30,-26.93,26.93
+51,Pakistan,51,Pakistan,2018,6,June,8212.91,7087.49,15.88,15.88
+51,Pakistan,51,Pakistan,2018,7,July,7875.30,8212.91,-4.11,4.11
+51,Pakistan,51,Pakistan,2018,8,August,7222.35,7875.30,-8.29,8.29
+51,Pakistan,51,Pakistan,2018,9,September,6029.96,7222.35,-16.51,16.51
+51,Pakistan,51,Pakistan,2018,10,October,8312.87,6029.96,37.86,37.86
+51,Pakistan,51,Pakistan,2018,11,November,8025.08,8312.87,-3.46,3.46
+51,Pakistan,51,Pakistan,2018,12,December,7287.00,8025.08,-9.20,9.20
+51,Pakistan,51,Pakistan,2019,1,January,8123.02,7287.00,11.47,11.47
+51,Pakistan,51,Pakistan,2019,2,February,7227.97,8123.02,-11.02,11.02
+51,Pakistan,51,Pakistan,2019,3,March,8967.94,7227.97,24.07,24.07
+51,Pakistan,51,Pakistan,2019,4,April,8938.28,8967.94,-0.33,0.33
+51,Pakistan,51,Pakistan,2019,5,May,9087.00,8938.28,1.66,1.66
+51,Pakistan,51,Pakistan,2019,6,June,8047.08,9087.00,-11.44,11.44
+51,Pakistan,51,Pakistan,2019,7,July,6983.02,8047.08,-13.22,13.22
+51,Pakistan,51,Pakistan,2019,8,August,9542.51,6983.02,36.65,36.65
+51,Pakistan,51,Pakistan,2019,9,September,8405.57,9542.51,-11.91,11.91
+51,Pakistan,51,Pakistan,2019,10,October,8501.62,8405.57,1.14,1.14
+51,Pakistan,51,Pakistan,2019,11,November,6686.66,8501.62,-21.35,21.35
+51,Pakistan,51,Pakistan,2019,12,December,7567.92,6686.66,13.18,13.18
+51,Pakistan,51,Pakistan,2020,1,January,6758.54,7567.92,-10.69,10.69
+51,Pakistan,51,Pakistan,2020,2,February,8684.74,6758.54,28.50,28.50
+51,Pakistan,51,Pakistan,2020,3,March,7586.19,8684.74,-12.65,12.65
+51,Pakistan,51,Pakistan,2020,4,April,6563.27,7586.19,-13.48,13.48
+51,Pakistan,51,Pakistan,2020,5,May,8007.72,6563.27,22.01,22.01
+51,Pakistan,51,Pakistan,2020,6,June,8675.23,8007.72,8.34,8.34
+51,Pakistan,51,Pakistan,2020,7,July,7841.18,8675.23,-9.61,9.61
+51,Pakistan,51,Pakistan,2020,8,August,8135.94,7841.18,3.76,3.76
+51,Pakistan,51,Pakistan,2020,9,September,7460.48,8135.94,-8.30,8.30
+51,Pakistan,51,Pakistan,2020,10,October,7246.07,7460.48,-2.87,2.87
+51,Pakistan,51,Pakistan,2020,11,November,7216.42,7246.07,-0.41,0.41
+51,Pakistan,51,Pakistan,2020,12,December,7770.99,7216.42,7.68,7.68
+6,Photo World,9,Canon Inc.,2015,1,January,58784.29,,,
+6,Photo World,9,Canon Inc.,2015,2,February,56833.16,58784.29,-3.32,3.32
+6,Photo World,9,Canon Inc.,2015,3,March,59009.72,56833.16,3.83,3.83
+6,Photo World,9,Canon Inc.,2015,4,April,55820.94,59009.72,-5.40,5.40
+6,Photo World,9,Canon Inc.,2015,5,May,55126.07,55820.94,-1.24,1.24
+6,Photo World,9,Canon Inc.,2015,6,June,53817.39,55126.07,-2.37,2.37
+6,Photo World,9,Canon Inc.,2015,7,July,61576.33,53817.39,14.42,14.42
+6,Photo World,9,Canon Inc.,2015,8,August,61483.43,61576.33,-0.15,0.15
+6,Photo World,9,Canon Inc.,2015,9,September,61421.04,61483.43,-0.10,0.10
+6,Photo World,9,Canon Inc.,2015,10,October,64188.26,61421.04,4.51,4.51
+6,Photo World,9,Canon Inc.,2015,11,November,54113.58,64188.26,-15.70,15.70
+6,Photo World,9,Canon Inc.,2015,12,December,58997.69,54113.58,9.03,9.03
+6,Photo World,9,Canon Inc.,2016,1,January,60533.17,58997.69,2.60,2.60
+6,Photo World,9,Canon Inc.,2016,2,February,53326.18,60533.17,-11.91,11.91
+6,Photo World,9,Canon Inc.,2016,3,March,61689.34,53326.18,15.68,15.68
+6,Photo World,9,Canon Inc.,2016,4,April,57710.81,61689.34,-6.45,6.45
+6,Photo World,9,Canon Inc.,2016,5,May,63329.28,57710.81,9.74,9.74
+6,Photo World,9,Canon Inc.,2016,6,June,55907.91,63329.28,-11.72,11.72
+6,Photo World,9,Canon Inc.,2016,7,July,60926.17,55907.91,8.98,8.98
+6,Photo World,9,Canon Inc.,2016,8,August,61139.20,60926.17,0.35,0.35
+6,Photo World,9,Canon Inc.,2016,9,September,59253.51,61139.20,-3.08,3.08
+6,Photo World,9,Canon Inc.,2016,10,October,63959.40,59253.51,7.94,7.94
+6,Photo World,9,Canon Inc.,2016,11,November,57792.84,63959.40,-9.64,9.64
+6,Photo World,9,Canon Inc.,2016,12,December,61367.27,57792.84,6.18,6.18
+6,Photo World,9,Canon Inc.,2017,1,January,58778.23,61367.27,-4.22,4.22
+6,Photo World,9,Canon Inc.,2017,2,February,48414.53,58778.23,-17.63,17.63
+6,Photo World,9,Canon Inc.,2017,3,March,59066.25,48414.53,22.00,22.00
+6,Photo World,9,Canon Inc.,2017,4,April,54456.08,59066.25,-7.81,7.81
+6,Photo World,9,Canon Inc.,2017,5,May,56605.12,54456.08,3.95,3.95
+6,Photo World,9,Canon Inc.,2017,6,June,55962.30,56605.12,-1.14,1.14
+6,Photo World,9,Canon Inc.,2017,7,July,58600.00,55962.30,4.71,4.71
+6,Photo World,9,Canon Inc.,2017,8,August,56511.54,58600.00,-3.56,3.56
+6,Photo World,9,Canon Inc.,2017,9,September,54227.51,56511.54,-4.04,4.04
+6,Photo World,9,Canon Inc.,2017,10,October,59146.56,54227.51,9.07,9.07
+6,Photo World,9,Canon Inc.,2017,11,November,59850.14,59146.56,1.19,1.19
+6,Photo World,9,Canon Inc.,2017,12,December,59753.49,59850.14,-0.16,0.16
+6,Photo World,9,Canon Inc.,2018,1,January,60890.71,59753.49,1.90,1.90
+6,Photo World,9,Canon Inc.,2018,2,February,50387.39,60890.71,-17.25,17.25
+6,Photo World,9,Canon Inc.,2018,3,March,61052.13,50387.39,21.17,21.17
+6,Photo World,9,Canon Inc.,2018,4,April,56499.25,61052.13,-7.46,7.46
+6,Photo World,9,Canon Inc.,2018,5,May,57999.75,56499.25,2.66,2.66
+6,Photo World,9,Canon Inc.,2018,6,June,59345.65,57999.75,2.32,2.32
+6,Photo World,9,Canon Inc.,2018,7,July,58589.94,59345.65,-1.27,1.27
+6,Photo World,9,Canon Inc.,2018,8,August,55930.52,58589.94,-4.54,4.54
+6,Photo World,9,Canon Inc.,2018,9,September,57832.24,55930.52,3.40,3.40
+6,Photo World,9,Canon Inc.,2018,10,October,57480.98,57832.24,-0.61,0.61
+6,Photo World,9,Canon Inc.,2018,11,November,57921.18,57480.98,0.77,0.77
+6,Photo World,9,Canon Inc.,2018,12,December,59480.54,57921.18,2.69,2.69
+6,Photo World,9,Canon Inc.,2019,1,January,59298.27,59480.54,-0.31,0.31
+6,Photo World,9,Canon Inc.,2019,2,February,51508.99,59298.27,-13.14,13.14
+6,Photo World,9,Canon Inc.,2019,3,March,55847.77,51508.99,8.42,8.42
+6,Photo World,9,Canon Inc.,2019,4,April,57262.60,55847.77,2.53,2.53
+6,Photo World,9,Canon Inc.,2019,5,May,56200.68,57262.60,-1.85,1.85
+6,Photo World,9,Canon Inc.,2019,6,June,57725.21,56200.68,2.71,2.71
+6,Photo World,9,Canon Inc.,2019,7,July,57452.59,57725.21,-0.47,0.47
+6,Photo World,9,Canon Inc.,2019,8,August,63476.18,57452.59,10.48,10.48
+6,Photo World,9,Canon Inc.,2019,9,September,56224.34,63476.18,-11.42,11.42
+6,Photo World,9,Canon Inc.,2019,10,October,60176.58,56224.34,7.03,7.03
+6,Photo World,9,Canon Inc.,2019,11,November,56617.63,60176.58,-5.91,5.91
+6,Photo World,9,Canon Inc.,2019,12,December,58871.43,56617.63,3.98,3.98
+6,Photo World,9,Canon Inc.,2020,1,January,60207.98,58871.43,2.27,2.27
+6,Photo World,9,Canon Inc.,2020,2,February,52703.32,60207.98,-12.46,12.46
+6,Photo World,9,Canon Inc.,2020,3,March,57950.48,52703.32,9.96,9.96
+6,Photo World,9,Canon Inc.,2020,4,April,58474.06,57950.48,0.90,0.90
+6,Photo World,9,Canon Inc.,2020,5,May,58456.10,58474.06,-0.03,0.03
+6,Photo World,9,Canon Inc.,2020,6,June,53016.09,58456.10,-9.31,9.31
+6,Photo World,9,Canon Inc.,2020,7,July,62966.99,53016.09,18.77,18.77
+6,Photo World,9,Canon Inc.,2020,8,August,61115.80,62966.99,-2.94,2.94
+6,Photo World,9,Canon Inc.,2020,9,September,59826.30,61115.80,-2.11,2.11
+6,Photo World,9,Canon Inc.,2020,10,October,61620.84,59826.30,3.00,3.00
+6,Photo World,9,Canon Inc.,2020,11,November,57341.37,61620.84,-6.94,6.94
+6,Photo World,9,Canon Inc.,2020,12,December,59943.88,57341.37,4.54,4.54
+7,Health Zone,17,Garmin Ltd.,2015,1,January,37356.61,,,
+7,Health Zone,17,Garmin Ltd.,2015,2,February,38679.27,37356.61,3.54,3.54
+7,Health Zone,17,Garmin Ltd.,2015,3,March,40148.95,38679.27,3.80,3.80
+7,Health Zone,17,Garmin Ltd.,2015,4,April,38228.09,40148.95,-4.78,4.78
+7,Health Zone,17,Garmin Ltd.,2015,5,May,38511.75,38228.09,0.74,0.74
+7,Health Zone,17,Garmin Ltd.,2015,6,June,36648.39,38511.75,-4.84,4.84
+7,Health Zone,17,Garmin Ltd.,2015,7,July,41984.47,36648.39,14.56,14.56
+7,Health Zone,17,Garmin Ltd.,2015,8,August,40096.23,41984.47,-4.50,4.50
+7,Health Zone,17,Garmin Ltd.,2015,9,September,39315.70,40096.23,-1.95,1.95
+7,Health Zone,17,Garmin Ltd.,2015,10,October,38661.60,39315.70,-1.66,1.66
+7,Health Zone,17,Garmin Ltd.,2015,11,November,35621.93,38661.60,-7.86,7.86
+7,Health Zone,17,Garmin Ltd.,2015,12,December,37100.36,35621.93,4.15,4.15
+7,Health Zone,17,Garmin Ltd.,2016,1,January,40988.92,37100.36,10.48,10.48
+7,Health Zone,17,Garmin Ltd.,2016,2,February,36940.02,40988.92,-9.88,9.88
+7,Health Zone,17,Garmin Ltd.,2016,3,March,36896.76,36940.02,-0.12,0.12
+7,Health Zone,17,Garmin Ltd.,2016,4,April,37547.92,36896.76,1.76,1.76
+7,Health Zone,17,Garmin Ltd.,2016,5,May,41790.06,37547.92,11.30,11.30
+7,Health Zone,17,Garmin Ltd.,2016,6,June,40388.79,41790.06,-3.35,3.35
+7,Health Zone,17,Garmin Ltd.,2016,7,July,37533.39,40388.79,-7.07,7.07
+7,Health Zone,17,Garmin Ltd.,2016,8,August,37716.46,37533.39,0.49,0.49
+7,Health Zone,17,Garmin Ltd.,2016,9,September,36854.08,37716.46,-2.29,2.29
+7,Health Zone,17,Garmin Ltd.,2016,10,October,37811.82,36854.08,2.60,2.60
+7,Health Zone,17,Garmin Ltd.,2016,11,November,35971.29,37811.82,-4.87,4.87
+7,Health Zone,17,Garmin Ltd.,2016,12,December,40427.40,35971.29,12.39,12.39
+7,Health Zone,17,Garmin Ltd.,2017,1,January,38610.24,40427.40,-4.49,4.49
+7,Health Zone,17,Garmin Ltd.,2017,2,February,35466.63,38610.24,-8.14,8.14
+7,Health Zone,17,Garmin Ltd.,2017,3,March,43353.31,35466.63,22.24,22.24
+7,Health Zone,17,Garmin Ltd.,2017,4,April,38950.69,43353.31,-10.16,10.16
+7,Health Zone,17,Garmin Ltd.,2017,5,May,38971.74,38950.69,0.05,0.05
+7,Health Zone,17,Garmin Ltd.,2017,6,June,39819.20,38971.74,2.17,2.17
+7,Health Zone,17,Garmin Ltd.,2017,7,July,40952.52,39819.20,2.85,2.85
+7,Health Zone,17,Garmin Ltd.,2017,8,August,38114.88,40952.52,-6.93,6.93
+7,Health Zone,17,Garmin Ltd.,2017,9,September,38004.98,38114.88,-0.29,0.29
+7,Health Zone,17,Garmin Ltd.,2017,10,October,42976.85,38004.98,13.08,13.08
+7,Health Zone,17,Garmin Ltd.,2017,11,November,39594.23,42976.85,-7.87,7.87
+7,Health Zone,17,Garmin Ltd.,2017,12,December,36553.26,39594.23,-7.68,7.68
+7,Health Zone,17,Garmin Ltd.,2018,1,January,39561.48,36553.26,8.23,8.23
+7,Health Zone,17,Garmin Ltd.,2018,2,February,38145.52,39561.48,-3.58,3.58
+7,Health Zone,17,Garmin Ltd.,2018,3,March,36491.87,38145.52,-4.34,4.34
+7,Health Zone,17,Garmin Ltd.,2018,4,April,39113.28,36491.87,7.18,7.18
+7,Health Zone,17,Garmin Ltd.,2018,5,May,40011.17,39113.28,2.30,2.30
+7,Health Zone,17,Garmin Ltd.,2018,6,June,38060.50,40011.17,-4.88,4.88
+7,Health Zone,17,Garmin Ltd.,2018,7,July,34662.85,38060.50,-8.93,8.93
+7,Health Zone,17,Garmin Ltd.,2018,8,August,38140.32,34662.85,10.03,10.03
+7,Health Zone,17,Garmin Ltd.,2018,9,September,34147.08,38140.32,-10.47,10.47
+7,Health Zone,17,Garmin Ltd.,2018,10,October,36801.08,34147.08,7.77,7.77
+7,Health Zone,17,Garmin Ltd.,2018,11,November,41094.67,36801.08,11.67,11.67
+7,Health Zone,17,Garmin Ltd.,2018,12,December,42647.42,41094.67,3.78,3.78
+7,Health Zone,17,Garmin Ltd.,2019,1,January,42608.33,42647.42,-0.09,0.09
+7,Health Zone,17,Garmin Ltd.,2019,2,February,39273.39,42608.33,-7.83,7.83
+7,Health Zone,17,Garmin Ltd.,2019,3,March,39898.67,39273.39,1.59,1.59
+7,Health Zone,17,Garmin Ltd.,2019,4,April,38039.39,39898.67,-4.66,4.66
+7,Health Zone,17,Garmin Ltd.,2019,5,May,41808.55,38039.39,9.91,9.91
+7,Health Zone,17,Garmin Ltd.,2019,6,June,39697.32,41808.55,-5.05,5.05
+7,Health Zone,17,Garmin Ltd.,2019,7,July,44589.87,39697.32,12.32,12.32
+7,Health Zone,17,Garmin Ltd.,2019,8,August,39589.57,44589.87,-11.21,11.21
+7,Health Zone,17,Garmin Ltd.,2019,9,September,38836.48,39589.57,-1.90,1.90
+7,Health Zone,17,Garmin Ltd.,2019,10,October,40768.67,38836.48,4.98,4.98
+7,Health Zone,17,Garmin Ltd.,2019,11,November,39481.86,40768.67,-3.16,3.16
+7,Health Zone,17,Garmin Ltd.,2019,12,December,42039.80,39481.86,6.48,6.48
+7,Health Zone,17,Garmin Ltd.,2020,1,January,37383.87,42039.80,-11.08,11.08
+7,Health Zone,17,Garmin Ltd.,2020,2,February,36586.09,37383.87,-2.13,2.13
+7,Health Zone,17,Garmin Ltd.,2020,3,March,37784.59,36586.09,3.28,3.28
+7,Health Zone,17,Garmin Ltd.,2020,4,April,41260.11,37784.59,9.20,9.20
+7,Health Zone,17,Garmin Ltd.,2020,5,May,38629.00,41260.11,-6.38,6.38
+7,Health Zone,17,Garmin Ltd.,2020,6,June,37880.32,38629.00,-1.94,1.94
+7,Health Zone,17,Garmin Ltd.,2020,7,July,38944.77,37880.32,2.81,2.81
+7,Health Zone,17,Garmin Ltd.,2020,8,August,42946.15,38944.77,10.27,10.27
+7,Health Zone,17,Garmin Ltd.,2020,9,September,37166.04,42946.15,-13.46,13.46
+7,Health Zone,17,Garmin Ltd.,2020,10,October,37285.20,37166.04,0.32,0.32
+7,Health Zone,17,Garmin Ltd.,2020,11,November,36382.41,37285.20,-2.42,2.42
+7,Health Zone,17,Garmin Ltd.,2020,12,December,38640.21,36382.41,6.21,6.21

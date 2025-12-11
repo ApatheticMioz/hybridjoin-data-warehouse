@@ -1,0 +1,121 @@
+Product_ID,Product_Category,Day_Type,Day_Rank,Month,Month_Name,Monthly_Revenue,Monthly_Quantity,Yearly_Revenue
+P00059442,Household Essentials,Weekday,1,1,January,1879.08,28,24159.60
+P00059442,Household Essentials,Weekday,1,2,February,1946.19,29,24159.60
+P00059442,Household Essentials,Weekday,1,3,March,2348.85,35,24159.60
+P00059442,Household Essentials,Weekday,1,4,April,1140.87,17,24159.60
+P00059442,Household Essentials,Weekday,1,5,May,1744.86,26,24159.60
+P00059442,Household Essentials,Weekday,1,6,June,1677.75,25,24159.60
+P00059442,Household Essentials,Weekday,1,7,July,2281.74,34,24159.60
+P00059442,Household Essentials,Weekday,1,8,August,3087.06,46,24159.60
+P00059442,Household Essentials,Weekday,1,9,September,1744.86,26,24159.60
+P00059442,Household Essentials,Weekday,1,10,October,2080.41,31,24159.60
+P00059442,Household Essentials,Weekday,1,11,November,2550.18,38,24159.60
+P00059442,Household Essentials,Weekday,1,12,December,1677.75,25,24159.60
+P00110842,Grocery,Weekday,2,1,January,2155.80,30,23857.52
+P00110842,Grocery,Weekday,2,2,February,1293.48,18,23857.52
+P00110842,Grocery,Weekday,2,3,March,1868.36,26,23857.52
+P00110842,Grocery,Weekday,2,4,April,2227.66,31,23857.52
+P00110842,Grocery,Weekday,2,5,May,3161.84,44,23857.52
+P00110842,Grocery,Weekday,2,6,June,2658.82,37,23857.52
+P00110842,Grocery,Weekday,2,7,July,1580.92,22,23857.52
+P00110842,Grocery,Weekday,2,8,August,1006.04,14,23857.52
+P00110842,Grocery,Weekday,2,9,September,1940.22,27,23857.52
+P00110842,Grocery,Weekday,2,10,October,2299.52,32,23857.52
+P00110842,Grocery,Weekday,2,11,November,2515.10,35,23857.52
+P00110842,Grocery,Weekday,2,12,December,1149.76,16,23857.52
+P00184942,Grocery,Weekday,3,1,January,2406.96,36,23066.70
+P00184942,Grocery,Weekday,3,2,February,1671.50,25,23066.70
+P00184942,Grocery,Weekday,3,3,March,2340.10,35,23066.70
+P00184942,Grocery,Weekday,3,4,April,2072.66,31,23066.70
+P00184942,Grocery,Weekday,3,5,May,2674.40,40,23066.70
+P00184942,Grocery,Weekday,3,6,June,2473.82,37,23066.70
+P00184942,Grocery,Weekday,3,7,July,869.18,13,23066.70
+P00184942,Grocery,Weekday,3,8,August,2874.98,43,23066.70
+P00184942,Grocery,Weekday,3,9,September,1136.62,17,23066.70
+P00184942,Grocery,Weekday,3,10,October,1738.36,26,23066.70
+P00184942,Grocery,Weekday,3,11,November,1136.62,17,23066.70
+P00184942,Grocery,Weekday,3,12,December,1671.50,25,23066.70
+P00220442,Health & Beauty,Weekday,4,1,January,1803.00,25,22140.84
+P00220442,Health & Beauty,Weekday,4,2,February,1298.16,18,22140.84
+P00220442,Health & Beauty,Weekday,4,3,March,1730.88,24,22140.84
+P00220442,Health & Beauty,Weekday,4,4,April,1586.64,22,22140.84
+P00220442,Health & Beauty,Weekday,4,5,May,2091.48,29,22140.84
+P00220442,Health & Beauty,Weekday,4,6,June,1803.00,25,22140.84
+P00220442,Health & Beauty,Weekday,4,7,July,2596.32,36,22140.84
+P00220442,Health & Beauty,Weekday,4,8,August,2452.08,34,22140.84
+P00220442,Health & Beauty,Weekday,4,9,September,2884.80,40,22140.84
+P00220442,Health & Beauty,Weekday,4,10,October,1081.80,15,22140.84
+P00220442,Health & Beauty,Weekday,4,11,November,1803.00,25,22140.84
+P00220442,Health & Beauty,Weekday,4,12,December,1009.68,14,22140.84
+P00277642,Electronics,Weekday,5,1,January,1701.04,22,21108.36
+P00277642,Electronics,Weekday,5,2,February,927.84,12,21108.36
+P00277642,Electronics,Weekday,5,3,March,1855.68,24,21108.36
+P00277642,Electronics,Weekday,5,4,April,1546.40,20,21108.36
+P00277642,Electronics,Weekday,5,5,May,1623.72,21,21108.36
+P00277642,Electronics,Weekday,5,6,June,2087.64,27,21108.36
+P00277642,Electronics,Weekday,5,7,July,2164.96,28,21108.36
+P00277642,Electronics,Weekday,5,8,August,1623.72,21,21108.36
+P00277642,Electronics,Weekday,5,9,September,3015.48,39,21108.36
+P00277642,Electronics,Weekday,5,10,October,2164.96,28,21108.36
+P00277642,Electronics,Weekday,5,11,November,1701.04,22,21108.36
+P00277642,Electronics,Weekday,5,12,December,695.88,9,21108.36
+P00059442,Household Essentials,Weekend,1,1,January,268.44,4,10267.83
+P00059442,Household Essentials,Weekend,1,2,February,805.32,12,10267.83
+P00059442,Household Essentials,Weekend,1,3,March,671.10,10,10267.83
+P00059442,Household Essentials,Weekend,1,4,April,1073.76,16,10267.83
+P00059442,Household Essentials,Weekend,1,5,May,469.77,7,10267.83
+P00059442,Household Essentials,Weekend,1,6,June,1140.87,17,10267.83
+P00059442,Household Essentials,Weekend,1,7,July,1677.75,25,10267.83
+P00059442,Household Essentials,Weekend,1,8,August,536.88,8,10267.83
+P00059442,Household Essentials,Weekend,1,9,September,1073.76,16,10267.83
+P00059442,Household Essentials,Weekend,1,10,October,1207.98,18,10267.83
+P00059442,Household Essentials,Weekend,1,11,November,402.66,6,10267.83
+P00059442,Household Essentials,Weekend,1,12,December,939.54,14,10267.83
+P00220442,Health & Beauty,Weekend,2,1,January,793.32,11,10168.92
+P00220442,Health & Beauty,Weekend,2,2,February,576.96,8,10168.92
+P00220442,Health & Beauty,Weekend,2,3,March,288.48,4,10168.92
+P00220442,Health & Beauty,Weekend,2,4,April,1009.68,14,10168.92
+P00220442,Health & Beauty,Weekend,2,5,May,721.20,10,10168.92
+P00220442,Health & Beauty,Weekend,2,6,June,937.56,13,10168.92
+P00220442,Health & Beauty,Weekend,2,7,July,1298.16,18,10168.92
+P00220442,Health & Beauty,Weekend,2,8,August,937.56,13,10168.92
+P00220442,Health & Beauty,Weekend,2,9,September,1442.40,20,10168.92
+P00220442,Health & Beauty,Weekend,2,10,October,721.20,10,10168.92
+P00220442,Health & Beauty,Weekend,2,11,November,216.36,3,10168.92
+P00220442,Health & Beauty,Weekend,2,12,December,1226.04,17,10168.92
+P00110842,Grocery,Weekend,3,1,January,790.46,11,9269.94
+P00110842,Grocery,Weekend,3,2,February,790.46,11,9269.94
+P00110842,Grocery,Weekend,3,3,March,790.46,11,9269.94
+P00110842,Grocery,Weekend,3,4,April,1221.62,17,9269.94
+P00110842,Grocery,Weekend,3,5,May,646.74,9,9269.94
+P00110842,Grocery,Weekend,3,6,June,503.02,7,9269.94
+P00110842,Grocery,Weekend,3,7,July,718.60,10,9269.94
+P00110842,Grocery,Weekend,3,8,August,718.60,10,9269.94
+P00110842,Grocery,Weekend,3,9,September,574.88,8,9269.94
+P00110842,Grocery,Weekend,3,10,October,1724.64,24,9269.94
+P00110842,Grocery,Weekend,3,11,November,287.44,4,9269.94
+P00110842,Grocery,Weekend,3,12,December,503.02,7,9269.94
+P00085242,Toys,Weekend,4,1,January,627.04,8,9092.08
+P00085242,Toys,Weekend,4,2,February,235.14,3,9092.08
+P00085242,Toys,Weekend,4,3,March,862.18,11,9092.08
+P00085242,Toys,Weekend,4,4,April,1018.94,13,9092.08
+P00085242,Toys,Weekend,4,5,May,548.66,7,9092.08
+P00085242,Toys,Weekend,4,6,June,235.14,3,9092.08
+P00085242,Toys,Weekend,4,7,July,1018.94,13,9092.08
+P00085242,Toys,Weekend,4,8,August,548.66,7,9092.08
+P00085242,Toys,Weekend,4,9,September,940.56,12,9092.08
+P00085242,Toys,Weekend,4,10,October,548.66,7,9092.08
+P00085242,Toys,Weekend,4,11,November,1567.60,20,9092.08
+P00085242,Toys,Weekend,4,12,December,940.56,12,9092.08
+P00031042,Toys,Weekend,5,1,January,814.66,14,7855.65
+P00031042,Toys,Weekend,5,2,February,407.33,7,7855.65
+P00031042,Toys,Weekend,5,3,March,523.71,9,7855.65
+P00031042,Toys,Weekend,5,4,April,698.28,12,7855.65
+P00031042,Toys,Weekend,5,5,May,814.66,14,7855.65
+P00031042,Toys,Weekend,5,6,June,465.52,8,7855.65
+P00031042,Toys,Weekend,5,7,July,1105.61,19,7855.65
+P00031042,Toys,Weekend,5,8,August,872.85,15,7855.65
+P00031042,Toys,Weekend,5,9,September,523.71,9,7855.65
+P00031042,Toys,Weekend,5,10,October,872.85,15,7855.65
+P00031042,Toys,Weekend,5,11,November,523.71,9,7855.65
+P00031042,Toys,Weekend,5,12,December,232.76,4,7855.65

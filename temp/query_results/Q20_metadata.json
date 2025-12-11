@@ -1,0 +1,22 @@
+{
+  "query_number": 20,
+  "title": "Create a View STORE_QUARTERLY_SALES for Optimized Sales \n--      Analysis",
+  "description": "Create a view named STORE_QUARTERLY_SALES that aggregates total quarterly sales by store Demonstrates: Materialized view concept, Query optimization",
+  "execution_time_seconds": 2.444363832473755,
+  "execution_time_formatted": "2.444s",
+  "row_count": 192,
+  "column_count": 10,
+  "columns": [
+    "Store_ID",
+    "Store_Name",
+    "Year",
+    "Quarter",
+    "Quarter_Label",
+    "Quarterly_Sales",
+    "Quarterly_Quantity",
+    "Total_Transactions",
+    "Unique_Customers",
+    "Avg_Transaction_Value"
+  ],
+  "timestamp": "2025-11-18T21:52:32.750717"
+}

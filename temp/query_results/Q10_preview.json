@@ -1,0 +1,51 @@
+[
+  {
+    "Age": "26-35",
+    "Weekday_Sales": 2116973.45,
+    "Weekend_Sales": 826779.2,
+    "Total_Sales": 2943752.65,
+    "Weekend_Percentage": 28.09
+  },
+  {
+    "Age": "36-45",
+    "Weekday_Sales": 1053115.8,
+    "Weekend_Sales": 437555.23,
+    "Total_Sales": 1490671.03,
+    "Weekend_Percentage": 29.35
+  },
+  {
+    "Age": "18-25",
+    "Weekday_Sales": 955491.41,
+    "Weekend_Sales": 390077.51,
+    "Total_Sales": 1345568.92,
+    "Weekend_Percentage": 28.99
+  },
+  {
+    "Age": "46-50",
+    "Weekday_Sales": 435200.92,
+    "Weekend_Sales": 172197.3,
+    "Total_Sales": 607398.22,
+    "Weekend_Percentage": 28.35
+  },
+  {
+    "Age": "51-55",
+    "Weekday_Sales": 365993.83,
+    "Weekend_Sales": 143575.55,
+    "Total_Sales": 509569.38,
+    "Weekend_Percentage": 28.18
+  },
+  {
+    "Age": "55+",
+    "Weekday_Sales": 205361.05,
+    "Weekend_Sales": 84123.65,
+    "Total_Sales": 289484.7,
+    "Weekend_Percentage": 29.06
+  },
+  {
+    "Age": "0-17",
+    "Weekday_Sales": 141532.34,
+    "Weekend_Sales": 58488.87,
+    "Total_Sales": 200021.21,
+    "Weekend_Percentage": 29.24
+  }
+]

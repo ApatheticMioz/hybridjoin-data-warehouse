@@ -1,0 +1,92 @@
+[
+  {
+    "Product_Category": "Appliances",
+    "Year": 2017,
+    "Month": 1,
+    "Month_Name": "January",
+    "Monthly_Sales": 1462.35,
+    "Previous_Month_Sales": null,
+    "Growth_Percentage": null
+  },
+  {
+    "Product_Category": "Appliances",
+    "Year": 2017,
+    "Month": 2,
+    "Month_Name": "February",
+    "Monthly_Sales": 2270.92,
+    "Previous_Month_Sales": 1462.35,
+    "Growth_Percentage": 55.29
+  },
+  {
+    "Product_Category": "Appliances",
+    "Year": 2017,
+    "Month": 3,
+    "Month_Name": "March",
+    "Monthly_Sales": 870.57,
+    "Previous_Month_Sales": 2270.92,
+    "Growth_Percentage": -61.66
+  },
+  {
+    "Product_Category": "Appliances",
+    "Year": 2017,
+    "Month": 4,
+    "Month_Name": "April",
+    "Monthly_Sales": 2163.03,
+    "Previous_Month_Sales": 870.57,
+    "Growth_Percentage": 148.46
+  },
+  {
+    "Product_Category": "Appliances",
+    "Year": 2017,
+    "Month": 5,
+    "Month_Name": "May",
+    "Monthly_Sales": 1584.52,
+    "Previous_Month_Sales": 2163.03,
+    "Growth_Percentage": -26.75
+  },
+  {
+    "Product_Category": "Appliances",
+    "Year": 2017,
+    "Month": 6,
+    "Month_Name": "June",
+    "Monthly_Sales": 1917.88,
+    "Previous_Month_Sales": 1584.52,
+    "Growth_Percentage": 21.04
+  },
+  {
+    "Product_Category": "Appliances",
+    "Year": 2017,
+    "Month": 7,
+    "Month_Name": "July",
+    "Monthly_Sales": 1601.32,
+    "Previous_Month_Sales": 1917.88,
+    "Growth_Percentage": -16.51
+  },
+  {
+    "Product_Category": "Appliances",
+    "Year": 2017,
+    "Month": 8,
+    "Month_Name": "August",
+    "Monthly_Sales": 1812.42,
+    "Previous_Month_Sales": 1601.32,
+    "Growth_Percentage": 13.18
+  },
+  {
+    "Product_Category": "Appliances",
+    "Year": 2017,
+    "Month": 9,
+    "Month_Name": "September",
+    "Monthly_Sales": 1797.79,
+    "Previous_Month_Sales": 1812.42,
+    "Growth_Percentage": -0.81
+  },
+  {
+    "Product_Category": "Appliances",
+    "Year": 2017,
+    "Month": 10,
+    "Month_Name": "October",
+    "Monthly_Sales": 1300.23,
+    "Previous_Month_Sales": 1797.79,
+    "Growth_Percentage": -27.68
+  }
+]

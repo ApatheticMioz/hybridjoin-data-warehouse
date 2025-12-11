@@ -1,0 +1,23 @@
+{
+  "query_number": 15,
+  "title": "Store-Wise and Supplier-Wise Monthly Revenue Volatility",
+  "description": "Calculate the month-to-month revenue volatility for each store and supplier pair Demonstrates: Window functions, Volatility analysis",
+  "execution_time_seconds": 1.7008538246154785,
+  "execution_time_formatted": "1.701s",
+  "row_count": 576,
+  "column_count": 11,
+  "columns": [
+    "Store_ID",
+    "Store_Name",
+    "Supplier_ID",
+    "Supplier_Name",
+    "Year",
+    "Month",
+    "Month_Name",
+    "Monthly_Revenue",
+    "Previous_Month_Revenue",
+    "Revenue_Change_Percentage",
+    "Volatility_Percentage"
+  ],
+  "timestamp": "2025-11-18T21:52:18.930525"
+}

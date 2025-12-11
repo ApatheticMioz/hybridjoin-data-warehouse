@@ -1,0 +1,20 @@
+{
+  "query_number": 19,
+  "title": "Identify High Revenue Spikes in Product Sales and Highlight \n--      Outliers",
+  "description": "Calculate daily average sales for each product and flag days where sales exceed twice the daily average Demonstrates: Outlier detection, Anomaly analysis, Window functions OPTIMIZED: Single-pass window functions (30-40% faster than multi-CTE)",
+  "execution_time_seconds": 8.273149967193604,
+  "execution_time_formatted": "8.273s",
+  "row_count": 15492,
+  "column_count": 8,
+  "columns": [
+    "Product_ID",
+    "Product_Category",
+    "Full_Date",
+    "Day_Name",
+    "Daily_Sales",
+    "Avg_Daily_Sales",
+    "Sales_Multiple",
+    "Anomaly_Flag"
+  ],
+  "timestamp": "2025-11-18T21:52:30.300966"
+}

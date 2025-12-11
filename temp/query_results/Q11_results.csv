@@ -1,0 +1,121 @@
+Product_ID,Product_Category,Year,Month,Month_Name,Day_Type,Revenue,Revenue_Rank
+P00002142,Grocery,2017,1,January,Weekday,2926.00,1
+P00184942,Grocery,2017,1,January,Weekday,2406.96,2
+P00372445,Shoes,2017,1,January,Weekday,2314.40,3
+P00110842,Grocery,2017,1,January,Weekday,2155.80,4
+P00371644,Shoes,2017,1,January,Weekday,2022.72,5
+P00127342,Grocery,2017,1,January,Weekend,1055.04,1
+P00037142,Grocery,2017,1,January,Weekend,968.55,2
+P00250242,Health & Beauty,2017,1,January,Weekend,941.78,3
+P00303042,Health & Beauty,2017,1,January,Weekend,932.80,4
+P00005742,Toys,2017,1,January,Weekend,911.88,5
+P00057942,Grocery,2017,2,February,Weekday,2104.65,1
+P00059442,Household Essentials,2017,2,February,Weekday,1946.19,2
+P00199442,Health & Beauty,2017,2,February,Weekday,1780.11,3
+P00084842,Toys,2017,2,February,Weekday,1720.88,4
+P00286642,Patio & Garden,2017,2,February,Weekday,1715.80,5
+P00265242,Health & Beauty,2017,2,February,Weekend,1154.40,1
+P00057942,Grocery,2017,2,February,Weekend,1091.30,2
+P00251242,Health & Beauty,2017,2,February,Weekend,1083.00,3
+P00375436,Shoes,2017,2,February,Weekend,1035.45,4
+P00356742,Health & Beauty,2017,2,February,Weekend,984.15,5
+P00034742,Health & Beauty,2017,3,March,Weekday,2494.10,1
+P00059442,Household Essentials,2017,3,March,Weekday,2348.85,2
+P00184942,Grocery,2017,3,March,Weekday,2340.10,3
+P00057942,Grocery,2017,3,March,Weekday,2182.60,4
+P00271142,Health & Beauty,2017,3,March,Weekday,2102.22,5
+P00265242,Health & Beauty,2017,3,March,Weekend,1000.48,1
+P00086442,Toys,2017,3,March,Weekend,886.62,2
+P00025442,Grocery,2017,3,March,Weekend,882.60,3
+P00085242,Toys,2017,3,March,Weekend,862.18,4
+P00078742,Health & Beauty,2017,3,March,Weekend,845.79,5
+P00115642,Toys,2017,4,April,Weekday,2476.90,1
+P00110842,Grocery,2017,4,April,Weekday,2227.66,2
+P00184942,Grocery,2017,4,April,Weekday,2072.66,3
+P00112542,Grocery,2017,4,April,Weekday,2071.62,4
+P00120042,Grocery,2017,4,April,Weekday,1938.38,5
+P00318742,Grocery,2017,4,April,Weekend,1353.96,1
+P00110842,Grocery,2017,4,April,Weekend,1221.62,2
+P00059442,Household Essentials,2017,4,April,Weekend,1073.76,3
+P00115642,Toys,2017,4,April,Weekend,1038.70,4
+P00085242,Toys,2017,4,April,Weekend,1018.94,5
+P00110842,Grocery,2017,5,May,Weekday,3161.84,1
+P00184942,Grocery,2017,5,May,Weekday,2674.40,2
+P00044442,Grocery,2017,5,May,Weekday,2663.64,3
+P00250242,Health & Beauty,2017,5,May,Weekday,2354.45,4
+P00220442,Health & Beauty,2017,5,May,Weekday,2091.48,5
+P00178942,Health & Beauty,2017,5,May,Weekend,989.17,1
+P00277642,Electronics,2017,5,May,Weekend,850.52,2
+P00116842,Electronics,2017,5,May,Weekend,849.53,3
+P00366542,Health & Beauty,2017,5,May,Weekend,840.40,4
+P00318742,Grocery,2017,5,May,Weekend,827.42,5
+P00110842,Grocery,2017,6,June,Weekday,2658.82,1
+P00184942,Grocery,2017,6,June,Weekday,2473.82,2
+P00044442,Grocery,2017,6,June,Weekday,2219.70,3
+P00116842,Electronics,2017,6,June,Weekday,2162.44,4
+P00277642,Electronics,2017,6,June,Weekday,2087.64,5
+P00052842,Automotive,2017,6,June,Weekend,1439.34,1
+P00059442,Household Essentials,2017,6,June,Weekend,1140.87,2
+P00220442,Health & Beauty,2017,6,June,Weekend,937.56,3
+P00178942,Health & Beauty,2017,6,June,Weekend,913.08,4
+P00127942,Grocery,2017,6,June,Weekend,883.48,5
+P00220442,Health & Beauty,2017,7,July,Weekday,2596.32,1
+P00059442,Household Essentials,2017,7,July,Weekday,2281.74,2
+P00249542,Grocery,2017,7,July,Weekday,2193.90,3
+P00110542,Toys,2017,7,July,Weekday,2191.35,4
+P00277642,Electronics,2017,7,July,Weekday,2164.96,5
+P00059442,Household Essentials,2017,7,July,Weekend,1677.75,1
+P00220442,Health & Beauty,2017,7,July,Weekend,1298.16,2
+P00251242,Health & Beauty,2017,7,July,Weekend,1191.30,3
+P00242742,Grocery,2017,7,July,Weekend,1167.84,4
+P00031042,Toys,2017,7,July,Weekend,1105.61,5
+P00059442,Household Essentials,2017,8,August,Weekday,3087.06,1
+P00184942,Grocery,2017,8,August,Weekday,2874.98,2
+P00220442,Health & Beauty,2017,8,August,Weekday,2452.08,3
+P00034742,Health & Beauty,2017,8,August,Weekday,2137.80,4
+P00044442,Grocery,2017,8,August,Weekday,1997.73,5
+P00249542,Grocery,2017,8,August,Weekend,1389.47,1
+P00034742,Health & Beauty,2017,8,August,Weekend,1018.00,2
+P00220442,Health & Beauty,2017,8,August,Weekend,937.56,3
+P00031042,Toys,2017,8,August,Weekend,872.85,4
+P00113242,Grocery,2017,8,August,Weekend,862.03,5
+P00277642,Electronics,2017,9,September,Weekday,3015.48,1
+P00220442,Health & Beauty,2017,9,September,Weekday,2884.80,2
+P00044442,Grocery,2017,9,September,Weekday,2071.72,3
+P00199442,Health & Beauty,2017,9,September,Weekday,1977.90,4
+P00110842,Grocery,2017,9,September,Weekday,1940.22,5
+P00220442,Health & Beauty,2017,9,September,Weekend,1442.40,1
+P00265242,Health & Beauty,2017,9,September,Weekend,1115.92,2
+P00059442,Household Essentials,2017,9,September,Weekend,1073.76,3
+P00323942,Toys,2017,9,September,Weekend,1058.42,4
+P00085242,Toys,2017,9,September,Weekend,940.56,5
+P00037142,Grocery,2017,10,October,Weekday,2389.09,1
+P00110842,Grocery,2017,10,October,Weekday,2299.52,2
+P00178942,Health & Beauty,2017,10,October,Weekday,2206.61,3
+P00277642,Electronics,2017,10,October,Weekday,2164.96,4
+P00059442,Household Essentials,2017,10,October,Weekday,2080.41,5
+P00110842,Grocery,2017,10,October,Weekend,1724.64,1
+P00059442,Household Essentials,2017,10,October,Weekend,1207.98,2
+P00286642,Patio & Garden,2017,10,October,Weekend,1044.40,3
+P00318742,Grocery,2017,10,October,Weekend,977.86,4
+P00031042,Toys,2017,10,October,Weekend,872.85,5
+P00059442,Household Essentials,2017,11,November,Weekday,2550.18,1
+P00110842,Grocery,2017,11,November,Weekday,2515.10,2
+P00062842,Grocery,2017,11,November,Weekday,2363.19,3
+P00086442,Toys,2017,11,November,Weekday,2026.56,4
+P00044442,Grocery,2017,11,November,Weekday,1849.75,5
+P00085242,Toys,2017,11,November,Weekend,1567.60,1
+P00057942,Grocery,2017,11,November,Weekend,1091.30,2
+P00085942,Electronics,2017,11,November,Weekend,986.00,3
+P00044442,Grocery,2017,11,November,Weekend,961.87,4
+P00240142,Health & Beauty,2017,11,November,Weekend,920.88,5
+P00034042,Grocery,2017,12,December,Weekday,2425.22,1
+P00371644,Shoes,2017,12,December,Weekday,2149.14,2
+P00034742,Health & Beauty,2017,12,December,Weekday,2086.90,3
+P00250242,Health & Beauty,2017,12,December,Weekday,1950.83,4
+P00351142,Grocery,2017,12,December,Weekday,1684.98,5
+P00057942,Grocery,2017,12,December,Weekend,1403.10,1
+P00220442,Health & Beauty,2017,12,December,Weekend,1226.04,2
+P00025442,Grocery,2017,12,December,Weekend,1103.25,3
+P00057542,Home & Kitchen,2017,12,December,Weekend,1060.92,4
+P00115642,Toys,2017,12,December,Weekend,1038.70,5

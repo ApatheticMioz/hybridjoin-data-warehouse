@@ -1,0 +1,92 @@
+[
+  {
+    "Stay_In_Current_City_Years": "0",
+    "Stay_Bucket": "0 yrs",
+    "Gender": "F",
+    "Total_Transactions": 17063,
+    "Total_Purchase_Amount": 1392633.23,
+    "Avg_Purchase_Amount": 81.617138,
+    "Unique_Customers": 214
+  },
+  {
+    "Stay_In_Current_City_Years": "0",
+    "Stay_Bucket": "0 yrs",
+    "Gender": "M",
+    "Total_Transactions": 57335,
+    "Total_Purchase_Amount": 4641121.63,
+    "Avg_Purchase_Amount": 80.947443,
+    "Unique_Customers": 558
+  },
+  {
+    "Stay_In_Current_City_Years": "1",
+    "Stay_Bucket": "1 yr",
+    "Gender": "F",
+    "Total_Transactions": 51298,
+    "Total_Purchase_Amount": 4139504.21,
+    "Avg_Purchase_Amount": 80.695236,
+    "Unique_Customers": 604
+  },
+  {
+    "Stay_In_Current_City_Years": "1",
+    "Stay_Bucket": "1 yr",
+    "Gender": "M",
+    "Total_Transactions": 142523,
+    "Total_Purchase_Amount": 11518117.71,
+    "Avg_Purchase_Amount": 80.815852,
+    "Unique_Customers": 1482
+  },
+  {
+    "Stay_In_Current_City_Years": "2",
+    "Stay_Bucket": "2 yrs",
+    "Gender": "F",
+    "Total_Transactions": 24332,
+    "Total_Purchase_Amount": 1987244.85,
+    "Avg_Purchase_Amount": 81.672072,
+    "Unique_Customers": 328
+  },
+  {
+    "Stay_In_Current_City_Years": "2",
+    "Stay_Bucket": "2 yrs",
+    "Gender": "M",
+    "Total_Transactions": 77506,
+    "Total_Purchase_Amount": 6281980.92,
+    "Avg_Purchase_Amount": 81.051543,
+    "Unique_Customers": 817
+  },
+  {
+    "Stay_In_Current_City_Years": "3",
+    "Stay_Bucket": "3 yrs",
+    "Gender": "F",
+    "Total_Transactions": 24520,
+    "Total_Purchase_Amount": 1980996.44,
+    "Avg_Purchase_Amount": 80.791046,
+    "Unique_Customers": 286
+  },
+  {
+    "Stay_In_Current_City_Years": "3",
+    "Stay_Bucket": "3 yrs",
+    "Gender": "M",
+    "Total_Transactions": 70765,
+    "Total_Purchase_Amount": 5719664.59,
+    "Avg_Purchase_Amount": 80.826179,
+    "Unique_Customers": 693
+  },
+  {
+    "Stay_In_Current_City_Years": "4",
+    "Stay_Bucket": "4+ yrs",
+    "Gender": "F",
+    "Total_Transactions": 18596,
+    "Total_Purchase_Amount": 1484191.42,
+    "Avg_Purchase_Amount": 79.812402,
+    "Unique_Customers": 234
+  },
+  {
+    "Stay_In_Current_City_Years": "4",
+    "Stay_Bucket": "4+ yrs",
+    "Gender": "M",
+    "Total_Transactions": 66130,
+    "Total_Purchase_Amount": 5362264.58,
+    "Avg_Purchase_Amount": 81.086717,
+    "Unique_Customers": 675
+  }
+]

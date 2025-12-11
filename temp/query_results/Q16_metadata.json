@@ -1,0 +1,17 @@
+{
+  "query_number": 16,
+  "title": "Top 5 Products Purchased Together Across Multiple Orders \n--      (Product Affinity Analysis)",
+  "description": "Identify the top 5 products frequently bought together within a set of orders Demonstrates: Self-join, Market basket analysis",
+  "execution_time_seconds": 1.8662216663360596,
+  "execution_time_formatted": "1.866s",
+  "row_count": 0,
+  "column_count": 5,
+  "columns": [
+    "Product1_ID",
+    "Product1_Category",
+    "Product2_ID",
+    "Product2_Category",
+    "Times_Bought_Together"
+  ],
+  "timestamp": "2025-11-18T21:52:20.799391"
+}

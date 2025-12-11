@@ -1,0 +1,422 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{times}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{placeins}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{HYBRIDJOIN Data Warehouse}
+\lhead{i23-2523}
+\rfoot{Page \thepage}
+
+% Title formatting
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+\begin{document}
+
+% Title Page
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    {\Huge\bfseries Building and Analyzing a Near-Real-Time Data Warehouse using HYBRIDJOIN\par}
+    \vspace{1.5cm}
+    
+    {\Large Muhammad Abdullah Ali\par}
+    {\large i23-2523\par}
+    \vspace{1cm}
+    
+    {\large\itshape Course: DS3003 \& DS3004\par}
+    {\large Data Warehousing \& Business Intelligence\par}
+    \vspace{0.5cm}
+    
+    {\large Instructor: Dr. Asif Naeem\par}
+    \vspace{1cm}
+    
+    {\large National University of Computer and Emerging Sciences (FAST)\par}
+    {\large Islamabad, Pakistan\par}
+    \vspace{1.5cm}
+    
+    {\large November 18, 2025\par}
+    
+    \vfill
+    
+    % \includegraphics[width=0.3\textwidth]{fast_logo.png}
+    
+\end{titlepage}
+
+% Table of Contents
+\tableofcontents
+\newpage
+
+% Abstract
+\begin{abstract}
+This project implements a near-real-time data warehouse for Walmart's transactional sales data using a star schema and the HYBRIDJOIN stream-relation join algorithm (Naeem et al., 2011). The system processes 550,068 transactions enriched with customer and product master data at 15,000 records/second throughput. The 4-phase ETL architecture maintains bounded memory ($\sim$32,000 tuples) for stream processing via hash tables (hS=10,000) and partitioned disk access (vP=500), while thin dimension lookups (76 KB total) enable O(1) surrogate key resolution. The star schema supports 20 OLAP queries with response times under 3 seconds (19/20 queries) for slicing, dicing, drill-down, and window function analytics.
+\end{abstract}
+
+\newpage
+
+% 1. Introduction
+\section{Introduction}
+
+This project implements a near-real-time data warehouse for Walmart's transactional sales data using the HYBRIDJOIN stream-relation join algorithm [1] for bounded-memory stream processing. The system processes 550,068 transactions with 5,891 customers and 3,631 products in 36.78 seconds (15,000 records/sec).\footnote{This prototype demonstrates core HYBRIDJOIN principles on a single node. Enterprise deployment at Walmart's scale would require distributed infrastructure, which is beyond this academic project's scope.}
+
+The 4-phase ETL pipeline: (1) batch-load dimensions, (2) cache thin key mappings (76 KB) for O(1) surrogate key lookups, (3) load wide master data to disk, (4) run chained HYBRIDJOIN with bounded memory ($\sim$32,000 tuples) via hash tables (hS=10,000), FIFO queues, and partitioned disk access (vP=500).
+
+\newpage
+
+% 2. System Design
+\section{System Design: The Data Warehouse}
+
+The data warehouse uses a conformed star schema [3] with five dimension tables and one fact table, optimized for OLAP query performance. The schema separates store and supplier entities from the product catalog to maintain a pure star structure without snowflaking, while still enabling store- and supplier-centric analytics.
+
+\subsection{Dimension Tables}
+
+\noindent\textbf{Dim\_Customer:} Customer\_Key (PK), Customer\_ID, Gender, Age, Age\_Band, Occupation, Occupation\_Bucket, City\_Category, City\_Tier, Stay\_In\_Current\_City\_Years, Stay\_Bucket, Marital\_Status, Marital\_Status\_Label, Loyalty\_Segment
+
+\begin{itemize}[leftmargin=*]
+    \item Captures customer demographics and behavioral attributes
+    \item Derived buckets (occupation, stay duration, loyalty) enable customer segmentation analysis
+    \item Indexed on Customer\_ID, Age, and Loyalty\_Segment for efficient filtering
+\end{itemize}
+
+\noindent\textbf{Dim\_Product:} Product\_Key (PK), Product\_ID, Product\_Category, Unit\_Price, Price\_Band, Is\_Premium
+
+\begin{itemize}[leftmargin=*]
+    \item Stores SKU-level product catalog with pricing attributes
+    \item Price bands and premium flags enable product segmentation and margin analysis
+    \item Indexed on Product\_ID, Product\_Category, and Price\_Band for query optimization
+\end{itemize}
+
+\noindent\textbf{Dim\_Store:} Store\_Key (PK), Store\_ID, Store\_Name, Store\_Channel, Store\_Tier, SKU\_Count, Category\_Count, Avg\_List\_Price, Is\_Flagship, Is\_Active
+
+\begin{itemize}[leftmargin=*]
+    \item Maintains store profiles with aggregated merchandising metrics (SKU breadth, category diversity, pricing)
+    \item Store tier classification (Mega, Large, Compact) based on catalog size
+    \item Enables store-level performance analysis and channel comparison
+\end{itemize}
+
+\noindent\textbf{Dim\_Supplier:} Supplier\_Key (PK), Supplier\_ID, Supplier\_Name, Supplier\_Tier, Primary\_Category, SKU\_Count, Avg\_List\_Price, Reliability\_Score
+
+\begin{itemize}[leftmargin=*]
+    \item Captures supplier characteristics and performance indicators
+    \item Tier classification (Strategic, Core, Long Tail) based on catalog contribution
+    \item Reliability score derived from catalog breadth and price positioning
+\end{itemize}
+
+\noindent\textbf{Dim\_Date:} Date\_Key (PK), Full\_Date, Day\_Of\_Week, Day\_Name, Is\_Weekend, Day\_Of\_Month, Day\_Of\_Year, Week\_Number, Month, Month\_Name, Quarter, Quarter\_Label, Half\_Year, Year, Season, Fiscal\_Month, Fiscal\_Quarter, Fiscal\_Year
+
+\begin{itemize}[leftmargin=*]
+    \item Provides Gregorian and fiscal hierarchies across 2,192 dates (2015--2020).
+    \item Dual calendar attributes enable both retail seasonality and financial reporting roll-ups.
+\end{itemize}
+
+\paragraph{Batch dimension population before stream processing.} The ETL process follows a strict 4-phase architecture: (1) PHASE 1 pre-populates \emph{all} dimension tables using batch loading from master data CSVs (Dim\_Customer, Dim\_Product from respective master files; Dim\_Store, Dim\_Supplier derived by aggregating product master data; Dim\_Date generated for 2015--2020); (2) PHASE 2 loads \emph{only thin key mappings} (Natural\_ID $\rightarrow$ Surrogate\_Key) into memory as Python dictionaries for O(1) lookups---these are minimal structures (5,891 customer mappings = 47 KB, 3,631 product mappings = 29 KB, total $\sim$76 KB); (3) PHASE 3 loads \emph{wide master data tables} (Master\_Customer with 7 columns, Master\_Product with 7 columns) to disk for partitioned access; (4) PHASE 4 runs the chained HYBRIDJOIN pipeline which enriches sparse transactions (5 fields: Order\_ID, Customer\_ID, Product\_ID, quantity, date) with full master data attributes (20+ fields including demographics, product details, store/supplier context) via partitioned disk access, then Consumer 2 performs in-memory dictionary lookups to convert natural keys to surrogate keys before fact insertion. \textbf{Memory Architecture:} Dimension lookups are trivial (76 KB total), while master data enrichment uses bounded partitions (500 rows $\times$ $\sim$100 bytes = 50 KB per partition), maintaining constant memory regardless of master data size.
+
+\subsection{Fact Table}
+
+\noindent\textbf{Fact\_Sales:} Sales\_Key (PK), Order\_ID, Order\_Line\_Number, Customer\_Key (FK), Product\_Key (FK), Store\_Key (FK), Supplier\_Key (FK), Date\_Key (FK), Quantity, Unit\_Price, Total\_Purchase\_Amount, Discount\_Amount, Net\_Sales\_Amount, Weekend\_Flag, Order\_Channel, Created\_At
+
+\begin{itemize}[leftmargin=*]
+    \item Contains one row per order line item (550,068 rows) enriched with conformed store and supplier keys
+    \item Measures: Quantity, Unit\_Price, Total\_Purchase\_Amount, Discount\_Amount, Net\_Sales\_Amount (computed as Total\_Purchase\_Amount - Discount\_Amount; stored as computed column in schema)
+    \item Note: In the current dataset, Discount\_Amount is consistently 0, making Net\_Sales\_Amount equivalent to Total\_Purchase\_Amount
+    \item Indexes: Single-column FKs plus composite indexes on (Date\_Key, Product\_Key), (Store\_Key, Supplier\_Key), and (Order\_ID, Product\_Key) for OLAP predicates
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/graph1_star_schema.png}
+    \caption{The Data Warehouse Star Schema}
+    \label{fig:star_schema}
+\end{figure}
+
+\noindent The star schema design [3] enables fast query performance through denormalization and pre-computed joins, avoiding the multi-table join overhead of normalized OLTP schemas. This is critical for near-real-time business intelligence queries that aggregate across millions of transactions.
+
+\newpage
+
+% 3. ETL Implementation
+\section{ETL Implementation: HYBRIDJOIN Algorithm}
+
+HYBRIDJOIN [1] is a stream-relation join algorithm designed for joining a continuous data stream ($S$) with a large, disk-based relation ($R$). It maintains bounded memory usage while processing potentially unbounded streams.
+
+\subsection{Core Components}
+
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Hash Table (H):} Fixed $h_S = 10{,}000$ slots to store stream tuples by join key
+    \item \textbf{Queue (Q):} Doubly-linked list maintaining FIFO order of stream tuple keys
+    \item \textbf{Disk Buffer:} Holds one partition ($v_P = 500$ tuples) from disk-based relation $R$
+    \item \textbf{Stream Buffer:} Temporary buffer for incoming stream tuples
+\end{enumerate}
+
+\subsection{Algorithm Steps}
+
+\textbf{Initialization:} Create hash table ($h_S$ slots), queue, disk buffer, stream buffer. Set $w = h_S$ (free slots).
+
+\textbf{Outer Loop (continuous):}
+
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Load Stream Tuples:} Read up to $w$ tuples from stream buffer, hash them into $H$ by join key, append keys to queue $Q$. Set $w = 0$.
+    
+    \item \textbf{Load Disk Partition:} Take oldest key $k$ from queue, query database for partition $P$ containing $k$ (using indexed query: \texttt{WHERE join\_key >= k LIMIT $v_P$}). Load $P$ into disk buffer.
+    
+    \item \textbf{Join \& Output (Inner Loop):} For each tuple $r$ in partition $P$:
+    \begin{itemize}
+        \item Probe hash table $H$ using $r$'s join key
+        \item For each matching stream tuple $s$:
+        \begin{itemize}
+            \item Output joined result ($s + r$)
+            \item Increment $w$ (one slot freed)
+        \end{itemize}
+    \end{itemize}
+    
+    \item \textbf{Repeat:} Continue until stream ends and hash table empties.
+\end{enumerate}
+
+\subsection{Key Properties}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Time Complexity:} $O(1)$ hash probe, $O(1)$ queue operations (doubly-linked list)
+    \item \textbf{Fairness:} FIFO queue ensures old stream tuples aren't starved
+    \item \textbf{Disk I/O:} Only loads needed partitions, leverages B-tree indexes on sorted master data
+\end{itemize}
+
+\subsection{Chained HYBRIDJOIN Architecture}
+
+For multi-relation joins (enriching transactions with both customer \emph{and} product data), the system employs a pipelined architecture with three concurrent threads (see Figure~\ref{fig:etl_pipeline}):
+
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Producer Thread:} Streams CSV tuples into stream\_buffer (5,000 capacity)
+    \item \textbf{Consumer 1 (Customer Join):} HYBRIDJOIN on Customer\_ID, enriches with demographics from Master\_Customer, outputs to intermediate\_queue
+    \item \textbf{Consumer 2 (Product Join):} HYBRIDJOIN on Product\_ID, enriches with product/store/supplier data from Master\_Product, performs in-memory dictionary lookups to resolve surrogate keys from the pre-populated dimensions, then batch-loads fact records
+\end{enumerate}
+
+Both consumers implement full HYBRIDJOIN with their own hash tables ($h_S = 10{,}000$), queues, and disk buffers ($v_P = 500$). Consumer 2 performs an additional critical function: for each enriched wide tuple, it performs in-memory dictionary lookups to convert natural keys (Customer\_ID, Product\_ID, Store\_ID, Supplier\_ID, Purchase\_Date) to surrogate keys from the pre-populated dimension tables, then constructs and batch-inserts fact records with these foreign keys. The dimension lookup dictionaries are loaded once at Phase 2 startup and remain constant during stream processing, providing guaranteed O(1) surrogate key resolution without cache misses or eviction logic.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figures/graph2_etl_pipeline.png}
+    \caption{Vertical chained HYBRIDJOIN pipeline showing the dual consumers, bounded queues, and the MySQL DWH\_Proj destination (Iteration~6). Dimensions are pre-populated in PHASE 1 before stream processing begins.}
+    \label{fig:etl_pipeline}
+\end{figure}
+
+\FloatBarrier
+\noindent\textbf{Advantages:}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Bounded stream processing:} HYBRIDJOIN maintains constant memory $O(32{,}000)$ tuples for stream enrichment regardless of transaction volume (scales to trillions of facts)
+    \item \textbf{Fast dimension lookups:} Pre-populated dimension tables in RAM enable O(1) surrogate key resolution; scales linearly with dimension cardinality (e.g., 1 billion customers $\approx$ 8GB RAM, feasible on enterprise servers)
+    \item \textbf{Separation of concerns:} Stream processing (bounded) vs dimension loading (RAM-based) are independent; dimensions scale with available memory, facts scale infinitely via HYBRIDJOIN
+    \item \textbf{Academic rigor:} Pure HYBRIDJOIN algorithm for stream-relation joins, proven to handle unbounded streams with partitioned disk access
+    \item \textbf{Enterprise deployment:} For Walmart-scale billions of dimensions, use distributed memory grids (Redis clusters) or partition dimensions across ETL nodes; our prototype proves the pattern
+\end{itemize}
+
+\newpage
+
+% 4. Results and Analysis
+\section{Results and Analysis}
+
+\subsection{Implementation Evolution}
+
+The ETL pipeline evolved through six iterations before achieving the final bounded-memory architecture:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Iterations 1-3 (Disqualified):} Failed due to unbounded memory (Iteration 1: loaded all data to RAM, 25s) or excessive disk I/O (Iteration 2: 310s with row-by-row lookups; Iteration 3: 120s accumulating results).
+    
+    \item \textbf{Iteration 4 (30s):} Used batch SQL \texttt{IN} clauses for efficiency but deviated from HYBRIDJOIN by employing in-memory hash joins instead of partitioned disk access.
+    
+    \item \textbf{Iteration 5 (31.14s):} Implemented chained HYBRIDJOIN with two consumers, each maintaining hash tables (hS=10,000), FIFO queues, and disk buffers (vP=500). Achieved algorithmic rigor but lacked dimension pre-population.
+    
+    \item \textbf{Iteration 6 (36.78s - Final):} Added 4-phase architecture: (1) batch-load dimensions, (2) cache thin key mappings (76 KB for O(1) surrogate lookups), (3) load master data to disk, (4) chained HYBRIDJOIN with bounded memory ($\sim$32,000 tuples). Achieves 15,000 records/sec throughput.
+\end{itemize}
+
+\subsection{ETL Performance}
+
+Figure~\ref{fig:etl_evolution} summarizes performance across iterations. Iterations 1-3 were disqualified for unbounded memory. Iteration 5 achieved algorithmic correctness. Iteration 6 adds star schema compliance with dimension pre-population.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/graph3_etl_evolution.png}
+    \caption{ETL Performance Evolution by Implementation}
+    \label{fig:etl_evolution}
+\end{figure}
+
+\noindent\textbf{Key Finding:} Iteration 6 balances bounded memory (constant 32K tuples for stream processing via HYBRIDJOIN) with fast lookups (76 KB thin key mappings in RAM). The 22\% overhead vs Iteration 4 (30s) provides algorithmic scalability---Iteration 6 handles arbitrarily large master data via partitioned disk access.
+
+\subsection{OLAP Query Performance}
+
+All 20 OLAP queries executed against the 550,068-row fact table with response times under 10 seconds. The star schema design enables efficient analytical operations:
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Basic aggregations (Q1-Q10):} Sub-second execution due to indexed foreign keys and denormalization
+    \item \textbf{Window functions (Q11-Q18):} 1-3 seconds for LAG, RANK, NTILE operations with composite indexes
+    \item \textbf{Q19 (Outlier detection):} 9.17s---slowest query requiring per-product statistical aggregation across all dates. Optimization: pre-compute daily statistics in summary table
+    \item \textbf{Q20 (View creation):} 2.55s including DDL execution
+\end{itemize}
+    \begin{itemize}
+        \item Query: Create STORE\_QUARTERLY\_SALES view with quarterly sales aggregation by store
+        \item Performance: Includes DDL execution time for view creation plus initial query
+    \end{itemize}
+\end{itemize}
+
+Figure~\ref{fig:olap_growth} shows a sample analytical output from the OLAP queries, demonstrating quarterly revenue growth patterns for two stores in 2017.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{figures/graph4_olap_growth.png}
+    \caption{Sample OLAP Analysis: Quarterly Revenue Growth Rates}
+    \label{fig:olap_growth}
+\end{figure}
+
+The query performance confirms that the star schema and indexing strategy are highly optimized for analytical workloads. The system successfully supports near-real-time business intelligence, with response times suitable for interactive dashboards and ad-hoc analysis.
+
+\subsection{Data-Specific Findings: Affinity Analysis (Q16)}
+
+Query 16 seeks to identify product pairs frequently purchased together (market basket analysis), which would inform product bundling strategies. The query returned 0 rows, correctly reflecting a characteristic of the provided dataset rather than a query logic error.
+
+Verification query:
+\begin{verbatim}
+SELECT Order_ID, COUNT(DISTINCT Product_Key) AS num_products
+FROM Fact_Sales
+GROUP BY Order_ID
+HAVING num_products > 1;
+-- Result: 0 rows (every order contains exactly one product)
+\end{verbatim}
+
+\textbf{Root Cause:} The source dataset (\texttt{transactional\_data.csv}) contains one row per unique (Order\_ID, Product\_ID) combination. This may indicate: (a) the data was pre-aggregated for simplicity, or (b) it represents a synthetic/academic dataset where each transaction involves a single item purchase.
+
+\textbf{Real-World Context:} In actual Walmart operations, orders typically contain 5-10 items (grocery baskets, household supplies, etc.), enabling meaningful affinity analysis. For instance, "customers who buy diapers also buy baby wipes" patterns would emerge from multi-item orders.
+
+\textbf{Lesson Learned:} This demonstrates the importance of data profiling before analysis. The query implementation is correct and would produce useful insights given multi-product orders. For academic purposes, one could simulate baskets by grouping orders from the same Customer\_ID within a 1-hour time window, though this was not required by the project specifications.
+
+\subsection{Algorithm Limitations and Shortcomings}
+
+While HYBRIDJOIN provides bounded memory guarantees for stream-relation joins, the algorithm has three fundamental limitations:
+
+\subsubsection{Limitation 1: Assumes Uniform Distribution of Join Keys}
+
+HYBRIDJOIN's performance degrades if stream join keys are highly skewed. If many stream tuples have the same join key, they hash to the same slot, creating long collision chains. This increases probe time from $O(1)$ to $O(n)$ in the worst case.
+
+\textbf{Example:} If 50\% of transactions are from Customer\_ID = 1000, that hash slot becomes a bottleneck. The FIFO queue doesn't help here since all those tuples have the same key, meaning they all probe the same overloaded hash slot.
+
+\textbf{Mitigation:} Use better hash functions (e.g., cryptographic hashes) or partition-aware stream distribution, but this isn't guaranteed in real streaming scenarios where key distribution is unpredictable.
+
+\subsubsection{Limitation 2: Requires Sorted and Indexed Disk Relations}
+
+HYBRIDJOIN relies on efficiently loading disk partitions containing a specific join key. This requires:
+\begin{itemize}[leftmargin=*]
+    \item Relation $R$ sorted by join key
+    \item B-tree or similar index on join key
+    \item Database support for range queries with \texttt{LIMIT}
+\end{itemize}
+
+\textbf{Challenge:} If master data is unsorted or lacks indexes, disk partition loading becomes expensive (full table scans). For unstructured data sources (e.g., NoSQL document stores like MongoDB), this requirement is hard to meet without additional infrastructure like sharding.
+
+\textbf{Example:} A MongoDB collection without a compound index on the join key would require a full collection scan for each partition query, negating the algorithm's I/O efficiency.
+
+\subsubsection{Limitation 3: Memory Bound Assumes Known Hash Table and Partition Sizes}
+
+HYBRIDJOIN's $O(h_S + v_P)$ guarantee only holds if we can accurately estimate:
+\begin{itemize}[leftmargin=*]
+    \item $h_S$: Requires knowing stream burst rate and tuple arrival distribution
+    \item $v_P$: Requires knowing average partition size for relation $R$
+\end{itemize}
+
+\textbf{Real-world issue:} Bursty streams (e.g., Black Friday sales spike) may exceed $h_S$ capacity. If the hash table fills ($w = 0$ persists), the stream buffer overflows and tuples are dropped or system must block, violating the streaming assumption.
+
+Similarly, variable-size partitions (skewed key distribution) break the $v_P$ assumption. If a single partition contains 5,000 tuples instead of the expected 500, memory usage spikes by 10$\times$.
+
+\textbf{Mitigation:} Dynamic $h_S$ resizing or partition size adaptation, but this breaks the ``bounded memory'' guarantee that is HYBRIDJOIN's core selling point.
+
+\newpage
+
+% 6. OLAP Queries and Results
+\input{temp/olap_queries_section.tex}
+
+\newpage
+
+% 7. Conclusion
+\section{Conclusion and Lessons Learned}
+
+This project demonstrated end-to-end data warehousing: schema design, ETL implementation, and analytical query development. The HYBRIDJOIN algorithm [1] provided hands-on experience with stream processing challenges---bounded memory, disk I/O optimization, and multi-relation joins.
+
+The evolution through five iterations showed that algorithm implementation is iterative. Understanding the theory from Naeem et al. [1] was necessary but not sufficient---practical concerns like batch I/O, memory bounds, and production scalability required experimentation.
+
+\subsection{Technical Skills Acquired}
+
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Stream Processing Architecture:} Learned to design multi-threaded producer-consumer systems with proper synchronization using queues, events, and locks.
+    
+    \item \textbf{Database Performance:} Understood importance of indexes, batch operations, and reducing round-trip queries. A single \texttt{IN} clause batch query can be 100$\times$ faster than loop-based individual queries.
+    
+    \item \textbf{Algorithm Trade-offs:} Realized that ``academic correctness'' (chained HYBRIDJOIN) vs ``practical optimization'' (batch lookups) depends on problem constraints. Both have value---one for scalability guarantees, the other for performance in bounded scenarios.
+    
+    \item \textbf{Memory Management:} Experienced how bounded data structures (fixed hash table, limited queue) enable predictable resource usage critical for production systems.
+\end{enumerate}
+
+\subsection{Problem-Solving Process}
+
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Iteration is Key:} Went through five implementations before finding the right balance. Each failure taught something about constraints not initially considered.
+    
+    \item \textbf{Measure, Don't Assume:} Initially thought row-by-row lookups would be ``fast enough.'' Measuring revealed 100$\times$ inefficiency.
+    
+    \item \textbf{Understand Requirements:} Took time to grasp why the instructor emphasized disk-based partitions. The point wasn't this specific dataset, but designing for scale.
+\end{enumerate}
+
+\subsection{Lessons Learned}
+
+\textbf{Technical Skills:}
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Stream Processing:} Designed multi-threaded producer-consumer systems with proper synchronization using queues and locks for bounded-memory guarantees.
+    \item \textbf{Database Optimization:} Batch operations (SQL \texttt{IN} clauses) are 100$\times$ faster than row-by-row queries. Composite indexes critical for OLAP performance.
+    \item \textbf{Memory Management:} Fixed-size hash tables and queues enable predictable resource usage for production systems.
+\end{enumerate}
+
+\textbf{Algorithm Trade-offs:} Pure HYBRIDJOIN (Iteration 6: 36.78s) vs practical batch optimization (Iteration 4: 30s) depend on constraints. HYBRIDJOIN guarantees scalability for arbitrarily large master data; batch loading is faster for bounded datasets.
+
+\textbf{Data Warehousing Concepts:}
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Star Schema:} Denormalized dimensions [3] simplify OLAP queries vs normalized OLTP schemas.
+    \item \textbf{ETL Complexity:} Data transformation (stream-relation joins) is harder than storage. Most warehouse complexity lives in the transformation layer.
+    \item \textbf{OLAP Operations:} Window functions (\texttt{LAG}, \texttt{RANK}, \texttt{NTILE}) enable powerful time-series analysis and segmentation.
+\end{enumerate}
+
+\textbf{Key Insight:} The evolution through 6 iterations showed that effective architectures separate concerns: (1) bounded stream processing (HYBRIDJOIN maintains constant 32K tuples), (2) thin dimension lookups (76 KB for key mappings), (3) wide master enrichment (partitioned disk access). Conflating these concerns causes either memory overflow (Iterations 1-3) or performance degradation (Iteration 2: 310s).
+
+\newpage
+
+% References
+\section{References}
+
+\begin{enumerate}[leftmargin=*]
+    \item Naeem, M.A., Dobbie, G., \& Weber, G. (2011). HYBRIDJOIN for Near-Real-Time Data Warehousing. In: M. G. (eds) \textit{Twenty-Second Australasian Database Conference (ADC 2011)}, Perth, Australia. Conferences in Research and Practice in Information Technology (CRPIT), Vol. 115.
+    
+    \item Codd, E.F., Codd, S.B., \& Salley, C.T. (1993). Providing OLAP (on-line analytical processing) to user-analysts: An IT mandate. \textit{Codd \& Date, Inc. Technical Report}.
+    
+    \item Kimball, R., \& Ross, M. (2013). \textit{The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling} (3rd ed.). John Wiley \& Sons.
+\end{enumerate}
+
+\end{document}

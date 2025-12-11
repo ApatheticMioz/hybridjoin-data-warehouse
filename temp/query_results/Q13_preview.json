@@ -1,0 +1,112 @@
+[
+  {
+    "Store_Name": "Electro Mart",
+    "Store_ID": "1",
+    "Supplier_Name": "Sony Corporation",
+    "Supplier_ID": "16",
+    "Product_ID": "P00220442",
+    "Product_Category": "Health & Beauty",
+    "Total_Sales": 182247.24,
+    "Total_Quantity": 2527.0,
+    "Total_Transactions": 1282
+  },
+  {
+    "Store_Name": "Electro Mart",
+    "Store_ID": "1",
+    "Supplier_Name": "Sony Corporation",
+    "Supplier_ID": "16",
+    "Product_ID": "P00085942",
+    "Product_Category": "Electronics",
+    "Total_Sales": 114144.0,
+    "Total_Quantity": 1968.0,
+    "Total_Transactions": 963
+  },
+  {
+    "Store_Name": "Electro Mart",
+    "Store_ID": "1",
+    "Supplier_Name": "Sony Corporation",
+    "Supplier_ID": "16",
+    "Product_ID": "P00271142",
+    "Product_Category": "Health & Beauty",
+    "Total_Sales": 96702.12,
+    "Total_Quantity": 1564.0,
+    "Total_Transactions": 791
+  },
+  {
+    "Store_Name": "Electro Mart",
+    "Store_ID": "1",
+    "Supplier_Name": "Sony Corporation",
+    "Supplier_ID": "16",
+    "Product_ID": "P00286642",
+    "Product_Category": "Patio & Garden",
+    "Total_Sales": 87804.2,
+    "Total_Quantity": 1177.0,
+    "Total_Transactions": 561
+  },
+  {
+    "Store_Name": "Electro Mart",
+    "Store_ID": "1",
+    "Supplier_Name": "Sony Corporation",
+    "Supplier_ID": "16",
+    "Product_ID": "P00255842",
+    "Product_Category": "Arts, Crafts & Sewing",
+    "Total_Sales": 87171.58,
+    "Total_Quantity": 2822.0,
+    "Total_Transactions": 1383
+  },
+  {
+    "Store_Name": "Electro Mart",
+    "Store_ID": "1",
+    "Supplier_Name": "Sony Corporation",
+    "Supplier_ID": "16",
+    "Product_ID": "P00057542",
+    "Product_Category": "Home & Kitchen",
+    "Total_Sales": 86406.04,
+    "Total_Quantity": 1466.0,
+    "Total_Transactions": 730
+  },
+  {
+    "Store_Name": "Electro Mart",
+    "Store_ID": "1",
+    "Supplier_Name": "Sony Corporation",
+    "Supplier_ID": "16",
+    "Product_ID": "P00003942",
+    "Product_Category": "Health & Beauty",
+    "Total_Sales": 85257.67,
+    "Total_Quantity": 1483.0,
+    "Total_Transactions": 749
+  },
+  {
+    "Store_Name": "Electro Mart",
+    "Store_ID": "1",
+    "Supplier_Name": "Sony Corporation",
+    "Supplier_ID": "16",
+    "Product_ID": "P00130742",
+    "Product_Category": "Grocery",
+    "Total_Sales": 83119.68,
+    "Total_Quantity": 1116.0,
+    "Total_Transactions": 549
+  },
+  {
+    "Store_Name": "Electro Mart",
+    "Store_ID": "1",
+    "Supplier_Name": "Sony Corporation",
+    "Supplier_ID": "16",
+    "Product_ID": "P00213242",
+    "Product_Category": "Health & Beauty",
+    "Total_Sales": 78285.34,
+    "Total_Quantity": 1258.0,
+    "Total_Transactions": 636
+  },
+  {
+    "Store_Name": "Electro Mart",
+    "Store_ID": "1",
+    "Supplier_Name": "Sony Corporation",
+    "Supplier_ID": "16",
+    "Product_ID": "P00233542",
+    "Product_Category": "Grocery",
+    "Total_Sales": 77877.0,
+    "Total_Quantity": 1275.0,
+    "Total_Transactions": 636
+  }
+]

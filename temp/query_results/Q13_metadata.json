@@ -1,0 +1,21 @@
+{
+  "query_number": 13,
+  "title": "Detailed Supplier Sales Contribution by Store and Product Name",
+  "description": "For each store, show the total sales contribution of each supplier broken down by product name Demonstrates: Multi-level grouping, Hierarchical aggregation",
+  "execution_time_seconds": 1.838977336883545,
+  "execution_time_formatted": "1.839s",
+  "row_count": 3631,
+  "column_count": 9,
+  "columns": [
+    "Store_Name",
+    "Store_ID",
+    "Supplier_Name",
+    "Supplier_ID",
+    "Product_ID",
+    "Product_Category",
+    "Total_Sales",
+    "Total_Quantity",
+    "Total_Transactions"
+  ],
+  "timestamp": "2025-11-18T21:52:14.155248"
+}
