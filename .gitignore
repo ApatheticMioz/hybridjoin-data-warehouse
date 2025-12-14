@@ -1,10 +1,23 @@
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+*.egg
 *.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.manifest
+*.spec
 .venv/
 venv/
+ENV/
+env/
 .env
+pip-log.txt
+pip-delete-this-directory.txt
 
 # Jupyter
 .ipynb_checkpoints/
@@ -16,13 +29,55 @@ venv/
 *.toc
 *.fls
 *.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
 
 # OS
 .DS_Store
 Thumbs.db
+*.swp
+*~
 
-# VS Code
+# IDE
 .vscode/
+.idea/
+*.iml
 
 # Node
 node_modules/
+npm-debug.log*
+
+# Compiled binaries
+*.exe
+*.o
+*.out
+*.dll
+*.so
+*.dylib
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tar
+
+# Database
+*.db
+*.sqlite
+
+# Test/Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Temporary
+*.tmp
+*.temp
+temp/
+tmp/
